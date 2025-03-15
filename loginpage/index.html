@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qatar University Login</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Scada:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./styles.css" rel="stylesheet">
+    <link href="./script.js" >
+
+  </head>
+  <body>
+    <main class="login-container">
+      <section class="login-card">
+        <img
+          src="./logo.png"
+          alt="Qatar University Logo"
+          class="university-logo"
+        />
+
+        <form class="login-form" id="loginForm">
+          <div class="input-group">
+            <label for="username" class="input-label">Username:</label>
+            <input
+              type="text"
+              id="username"
+              class="form-input"
+              aria-required="true"
+              aria-describedby="username-error"
+            />
+          </div>
+
+          <div class="input-group">
+            <label for="password" class="input-label">Password:</label>
+            <input
+              type="password"
+              id="password"
+              class="form-input"
+              aria-required="true"
+              aria-describedby="password-error"
+            />
+          </div>
+
+          <div class="input-group">
+            <label for="type" class="input-label">Type:</label>
+            <input
+              type="text"
+              id="type"
+              class="form-input"
+              aria-required="true"
+              aria-describedby="type-error"
+            />
+          </div>
+
+          <button type="submit" class="submit-button" id="submitButton">
+            <span id="buttonText">Sign In</span>
+            <span id="loadingText" class="hidden">Signing in...</span>
+          </button>
+
+          <div role="alert" class="error-container hidden" id="errorContainer">
+            <div id="username-error" class="hidden"></div>
+            <div id="password-error" class="hidden"></div>
+            <div id="type-error" class="hidden"></div>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
