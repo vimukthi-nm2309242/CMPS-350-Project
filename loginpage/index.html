@@ -13,6 +13,7 @@
 
   </head>
   <body>
+
     <main class="login-container">
       <section class="login-card">
         <img
@@ -28,8 +29,6 @@
               type="text"
               id="username"
               class="form-input"
-              aria-required="true"
-              aria-describedby="username-error"
             />
           </div>
 
@@ -39,20 +38,16 @@
               type="password"
               id="password"
               class="form-input"
-              aria-required="true"
-              aria-describedby="password-error"
             />
           </div>
 
           <div class="input-group">
             <label for="type" class="input-label">Type:</label>
-            <input
-              type="text"
-              id="type"
-              class="form-input"
-              aria-required="true"
-              aria-describedby="type-error"
-            />
+            <select class="form-input">
+              <option value="student">Student</option>
+              <option value="instructor">Instructor</option>
+              <option value="admin">Administrator</option>
+            </select>
           </div>
 
           <button type="submit" class="submit-button" id="submitButton">
@@ -60,13 +55,18 @@
             <span id="loadingText" class="hidden">Signing in...</span>
           </button>
 
-          <div role="alert" class="error-container hidden" id="errorContainer">
+          <!-- <div role="alert" class="error-container hidden" id="errorContainer">
             <div id="username-error" class="hidden"></div>
             <div id="password-error" class="hidden"></div>
             <div id="type-error" class="hidden"></div>
-          </div>
+          </div> -->
         </form>
       </section>
     </main>
+    <footer>
+      <div>
+        <p>Qatar University. All rights reserved</p>
+      </div>
+    </footer>
   </body>
 </html>

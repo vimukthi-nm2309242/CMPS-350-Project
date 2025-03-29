@@ -146,3 +146,8 @@ body {
 .hidden {
   display: none;
 }
+
+footer div{
+  display: flex;
+  justify-content: center;
+}
