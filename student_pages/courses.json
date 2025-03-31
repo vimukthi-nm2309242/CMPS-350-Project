@@ -5,7 +5,9 @@
       "name": "Fundamentals of Database",
       "category": "Databases",
       "instructor": "Vimukthi Ashen",
-      "openForRegistration": true
+      "prerequisites": [1],
+      "openForRegistration": true,
+      "availableSeats": 15
     },
     {
       "id": 2,
@@ -13,7 +15,9 @@
       "name": "Data Structures",
       "category": "Programming",
       "instructor": "John Smith",
-      "openForRegistration": true
+      "prerequisites": [1],
+      "openForRegistration": true,
+      "availableSeats": 25
     },
     {
       "id": 3,
@@ -21,7 +25,9 @@
       "name": "Operating Systems",
       "category": "Systems",
       "instructor": "Sarah Jones",
-      "openForRegistration": false
+      "prerequisites": [2],
+      "openForRegistration": false,
+      "availableSeats": 10
     },
     {
       "id": 4,
@@ -29,7 +35,9 @@
       "name": "Object-Oriented Programming",
       "category": "Programming",
       "instructor": "Ahmed Hassan",
-      "openForRegistration": true
+      "prerequisites": [1],
+      "openForRegistration": true,
+      "availableSeats": 15
     },
     {
       "id": 5,
@@ -37,6 +45,28 @@
       "name": "Web Development",
       "category": "Programming",
       "instructor": "Maria Rodriguez",
-      "openForRegistration": true
+      "prerequisites": [1],
+      "openForRegistration": true,
+      "availableSeats": 10
+    },
+    {
+      "id": 6,
+      "code": "CMPS 263",
+      "name": "Computer Architecure and Organization",
+      "category": "Engineering",
+      "instructor": "Jane Doe",
+      "prerequisites": [],
+      "openForRegistration": false,
+      "availableSeats": 20
+    },
+    {
+      "id": 6,
+      "code": "CMPS 151",
+      "name": "Programming Concepts",
+      "category": "Programming",
+      "instructor": "Fernando Alonso",
+      "prerequisites": [],
+      "openForRegistration": true,
+      "availableSeats": 30
     }
   ]

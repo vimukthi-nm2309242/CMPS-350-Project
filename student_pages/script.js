@@ -70,10 +70,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const searchbar = document.querySelector("#searchitem");
 
-    searchbar.addEventListener("input", () =>{
-        filter(searchbar.value);
+    const searchbtn = document.querySelector("#searchbtn");
+
+    searchbtn.addEventListener("click", () => {
+        filter(searchbar.value);            
     })
-    //this event listener listens to user inputs real time to filter out courses required by student
 
     courses();    //call the course function to allow the courses to load
 });
