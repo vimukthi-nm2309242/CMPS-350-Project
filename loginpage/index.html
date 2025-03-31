@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Qatar University Login</title>
+    <title>Sign In</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Scada:wght@400;700&display=swap"
       rel="stylesheet"
@@ -29,6 +29,7 @@
               id="username"
               class="form-input"
             />
+            <span class="error-message" id="username-error"></span>
           </div>
 
           <div class="input-group">
@@ -38,26 +39,25 @@
               id="password"
               class="form-input"
             />
+            <span class="error-message" id="password-error"></span>
           </div>
 
           <div class="input-group">
             <label for="type" class="input-label">Type:</label>
-            <select class="form-input">
+            <select class="form-input" id="userType">
               <option value="student">Student</option>
               <option value="instructor">Instructor</option>
               <option value="admin">Administrator</option>
             </select>
+            <span class="error-message" id="type-error"></span>
           </div>
 
           <button class="submit-button" id="submitButton">
             <span id="buttonText">Sign In</span>
           </button>
 
-          <!-- <div role="alert" class="error-container hidden" id="errorContainer">
-            <div id="username-error" class="hidden"></div>
-            <div id="password-error" class="hidden"></div>
-            <div id="type-error" class="hidden"></div>
-          </div> -->
+          <span class="error-message" id="login-error"></span>
+
         </form>
       </section>
     </main>

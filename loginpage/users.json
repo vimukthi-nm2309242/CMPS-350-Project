@@ -1,0 +1,43 @@
+[
+    {
+      "username": "student1",
+      "password": "123",
+      "type": "student"
+    },
+    {
+      "username": "student2",
+      "password": "111",
+      "type": "student"
+    },
+    {
+      "username": "student3",
+      "password": "222",
+      "type": "student"
+    },
+    {
+      "username": "instructor1",
+      "password": "teacher123",
+      "type": "instructor"
+    },
+    {
+      "username": "instructor2",
+      "password": "teacher456",
+      "type": "instructor"
+    },
+    {
+      "username": "instructor3",
+      "password": "teacher789",
+      "type": "instructor"
+    },
+    {
+      "username": "admin1",
+      "password": "admin123",
+      "type": "admin"
+    },
+    {
+      "username": "admin2",
+      "password": "admin321",
+      "type": "admin"
+    }
+  ]
+  
