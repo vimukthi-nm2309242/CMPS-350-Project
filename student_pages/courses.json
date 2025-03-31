@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "code": "CMPS 351",
+      "name": "Fundamentals of Database",
+      "category": "Databases",
+      "instructor": "Vimukthi Ashen",
+      "openForRegistration": true
+    },
+    {
+      "id": 2,
+      "code": "CMPS 303",
+      "name": "Data Structures",
+      "category": "Programming",
+      "instructor": "John Smith",
+      "openForRegistration": true
+    },
+    {
+      "id": 3,
+      "code": "CMPS 405",
+      "name": "Operating Systems",
+      "category": "Systems",
+      "instructor": "Sarah Jones",
+      "openForRegistration": false
+    },
+    {
+      "id": 4,
+      "code": "CMPS 251",
+      "name": "Object-Oriented Programming",
+      "category": "Programming",
+      "instructor": "Ahmed Hassan",
+      "openForRegistration": true
+    },
+    {
+      "id": 5,
+      "code": "CMPS 350",
+      "name": "Web Development",
+      "category": "Programming",
+      "instructor": "Maria Rodriguez",
+      "openForRegistration": true
+    }
+  ]

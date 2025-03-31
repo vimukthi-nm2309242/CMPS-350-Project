@@ -23,15 +23,15 @@ body {
     display: flex;
     justify-content: center;
     /* font-family: "Scada", sans-serif; */
+}
 
-    input {
-        min-width: 300px;  
-        width: 100%;
-        padding: 8px 12px; 
-        border: 1px solid #ccc;
-        border-radius: 4px; 
-        font-size: 16px;    
-    }
+.search input {
+    min-width: 300px;  
+    width: 100%;
+    padding: 8px 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    font-size: 16px;    
 }
 
 button{
@@ -54,9 +54,11 @@ button{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 20px;
-    a{
-        cursor: pointer;
-    }
+
+}
+
+.container a{
+    cursor: pointer;
 }
   
 .classes {
@@ -72,22 +74,22 @@ button{
 .items{
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
     align-items: center;
+    justify-content: space-between;
+    padding-right: 15px;
 }
 
 .register-btn{
     margin-left: 3em;
-    
-    button{
-        font-size: 15px;
-        box-shadow: none;
-        transition: transform 0.3s ease;
-    }
-
     /* button:hover{
         box-shadow: 2.85px 2.85px 0px 0px #000;
     } */
+}
+
+.register-btn button{
+    font-size: 15px;
+    box-shadow: none;
+    transition: transform 0.3s ease;
 }
 
 
@@ -132,22 +134,4 @@ button:hover {
     display: flex;
     flex-direction: column;
     height: 100%;
-}
-
-footer div{
-    display: flex;
-    justify-content: center;
-}
-
-  footer {
-    width: 100%;
-    padding: 20px 0;
-    text-align: center;
-    margin-top: auto; 
-}
-
-footer p {
-    margin: 0;
-    color: #333;
-    font-size: 16px;
 }
