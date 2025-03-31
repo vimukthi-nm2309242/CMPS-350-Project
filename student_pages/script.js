@@ -10,8 +10,17 @@ document.addEventListener("DOMContentLoaded", function () {
             filter(searchbar.value);     //this function allows use to input a value into the search field to filter stuff
         }
     }
+    // async function images(){
+    //     const imgres = await fetch("https://picsum.photos/200/300");
+    //     let img;
+    //     if(imgres.ok){
+    //         img = await imgres.blob();
+    //     }
 
-    function displayCourses(courses) {
+    //     return URL.createObjectURL(img)
+    // }
+
+    async function displayCourses(courses) {
         const container = document.querySelector(".container");
         container.innerHTML = ""; // Clear previous content
 
@@ -24,8 +33,10 @@ document.addEventListener("DOMContentLoaded", function () {
             const courseHTML = document.createElement("div");
             courseHTML.classList.add("classes");
 
+            // const image = await images();
+
             courseHTML.innerHTML = `
-                <img>
+                <img src="./img/istockphoto-1403500817-612x612.jpg">
                 <div class="items">
                     <div class="desc">
                         <h3>${course.code}</h3>
@@ -40,12 +51,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
             container.appendChild(courseHTML);
 
-
             // in the student dashboard HTML there is a boiler template that is created 
             // it is used as a reference to generate the HTML content in JS using creaateElement
             // then we can use the forEach function to generate the courses for each object from the 
             // courses.json file.
-
         });
     }
 
