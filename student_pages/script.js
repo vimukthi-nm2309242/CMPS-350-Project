@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
     //     return URL.createObjectURL(img)
     // }
 
-    async function displayCourses(courses) {
+    function displayCourses(courses) {
         const container = document.querySelector(".container");
         container.innerHTML = ""; // Clear previous content
 
@@ -36,11 +36,11 @@ document.addEventListener("DOMContentLoaded", function () {
             // const image = await images();
 
             courseHTML.innerHTML = `
-                <img src="./img/istockphoto-1403500817-612x612.jpg">
                 <div class="items">
                     <div class="desc">
                         <h3>${course.code}</h3>
                         <p>${course.name}</p>
+                        <p>${course.description}</p>
                         <p>${course.instructor}</p>
                     </div>
                     <div class="register-btn">

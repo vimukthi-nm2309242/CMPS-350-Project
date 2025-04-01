@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function(){
 
   const usernameError = document.querySelector("#username-error");
   const passwordError = document.querySelector("#password-error");
-  const typeError = document.querySelector("#type-error");
   const loginError = document.querySelector("#login-error");
 
 

@@ -5,6 +5,7 @@
       "name": "Fundamentals of Database",
       "category": "Databases",
       "instructor": "Vimukthi Ashen",
+      "description":"Learn about database design and SQL",
       "prerequisites": [1],
       "openForRegistration": true,
       "availableSeats": 15
@@ -15,6 +16,7 @@
       "name": "Data Structures",
       "category": "Programming",
       "instructor": "John Smith",
+      "description":"Understand various data structures",
       "prerequisites": [1],
       "openForRegistration": true,
       "availableSeats": 25
@@ -25,6 +27,7 @@
       "name": "Operating Systems",
       "category": "Systems",
       "instructor": "Sarah Jones",
+      "description":"Learn about Operating systems",
       "prerequisites": [2],
       "openForRegistration": false,
       "availableSeats": 10
@@ -35,6 +38,7 @@
       "name": "Object-Oriented Programming",
       "category": "Programming",
       "instructor": "Ahmed Hassan",
+      "description":"Deeper dive into programming",
       "prerequisites": [1],
       "openForRegistration": true,
       "availableSeats": 15
@@ -45,6 +49,7 @@
       "name": "Web Development",
       "category": "Programming",
       "instructor": "Maria Rodriguez",
+      "description":"Build websites using HTML, CSS, Javascript and more",
       "prerequisites": [1],
       "openForRegistration": true,
       "availableSeats": 10
@@ -55,6 +60,7 @@
       "name": "Computer Architecure and Organization",
       "category": "Engineering",
       "instructor": "Jane Doe",
+      "description":"Learn about the basics about computer architecture",
       "prerequisites": [],
       "openForRegistration": false,
       "availableSeats": 20
@@ -65,6 +71,7 @@
       "name": "Programming Concepts",
       "category": "Programming",
       "instructor": "Fernando Alonso",
+      "description":"Stepping stone to programming",
       "prerequisites": [],
       "openForRegistration": true,
       "availableSeats": 30
