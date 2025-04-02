@@ -2,17 +2,23 @@
     {
       "username": "student1",
       "password": "123",
-      "type": "student"
+      "type": "student",
+      "completedCourses": ["cmps251","cmps151"],
+      "registeredCourses": []
     },
     {
       "username": "student2",
       "password": "111",
-      "type": "student"
+      "type": "student",
+      "completedCourses": [],
+      "registeredCourses": []
     },
     {
       "username": "student3",
       "password": "222",
-      "type": "student"
+      "type": "student",
+      "completedCourses": ["cmps251","cmps263","cmps151"],
+      "registeredCourses": []
     },
     {
       "username": "instructor1",
