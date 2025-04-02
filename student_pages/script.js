@@ -36,7 +36,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 const result = await prerequisiteCheck(course.id);
 
+                if(result.success){
+                    courseUpdate(course.id);
+                }
+
                 courseMsg(result.message);
+
             });  
 
             courseHTML.innerHTML = `
@@ -139,7 +144,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         return{
             success: true,
-            message: "All prerequisites are met, you can register."
+            message: "Registration successful, awaiting admin approval."
         }
 
         //above are few basic validations just to see if there are seats or if the class is open or if there is no prerequisites
@@ -167,6 +172,31 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
 
+    async function courseUpdate(course){
+        course = allCourses.find(c => c.id === course)
+
+        course.availableSeats--;
+
+        const user = await retrieveUser();
+
+        user.registeredCourses.push(course.id);
+
+        localStorage.setItem('courses', JSON.stringify(allCourses));
+    
+        const response = await fetch("../loginpage/users.json");
+        if (response.ok) {
+            const users = await response.json();
+            const userIndex = users.findIndex(u => u.username === user.username);
+            if (userIndex !== -1) {
+                users[userIndex] = user;
+ 
+                console.log("Updated users:", users);
+            }
+        }
+
+        displayCourses(allCourses); //rerender the state
+
+    }
 
     courses();    //call the course function to allow the courses to load
 });

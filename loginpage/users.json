@@ -17,7 +17,7 @@
       "username": "student3",
       "password": "222",
       "type": "student",
-      "completedCourses": ["cmps251","cmps263","cmps151"],
+      "completedCourses": ["cmps251","cmpe263","cmps151"],
       "registeredCourses": []
     },
     {
