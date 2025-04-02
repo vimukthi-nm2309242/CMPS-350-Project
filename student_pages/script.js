@@ -29,14 +29,14 @@ document.addEventListener("DOMContentLoaded", function () {
             courseHTML.classList.add("classes");
 
             const registerBtn = document.createElement("button");
-            registerBtn.textContent = "Register";
+            registerBtn.innerText = "Register";
             registerBtn.dataset.courseId = course.id;
 
             registerBtn.addEventListener("click", async () => {
                 
                 const result = await prerequisiteCheck(course.id);
 
-                console.log(result.message);
+                courseMsg(result.message);
             });  
 
             courseHTML.innerHTML = `
@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if(!course.openForRegistration){
             return {
                 success: false,
-                message: "Course is not Open for registration"
+                message: "Course is not open for registration"
             };
         }
 
@@ -122,13 +122,8 @@ document.addEventListener("DOMContentLoaded", function () {
             };
         }
         
-
-        if(course.prerequisites.length === 0){
-            return {
-                success: true,
-                message: "Course can beregistered, no prerequisites"
-            };
-        }
+        // need to add a validation if student has already completed a course
+        // so it will prevent them from reregistering for same course
 
         const missingPrerequisites = course.prerequisites.filter(c => !user.completedCourses.includes(c));
         //this variable filters out the prerequisities that the current user has not completed
@@ -144,12 +139,34 @@ document.addEventListener("DOMContentLoaded", function () {
 
         return{
             success: true,
-            message: "All prerequisites are met."
+            message: "All prerequisites are met, you can register."
         }
 
         //above are few basic validations just to see if there are seats or if the class is open or if there is no prerequisites
 
     }
+
+    function courseMsg(message){
+        const messageContainer = document.createElement("div");
+        messageContainer.classList.add("messageContainer");
+
+        messageContainer.innerHTML = `
+        <div class="message-content">
+            <p>${message}</p>
+            <div class="close-btn">Close</div>
+        </div>
+        `;
+
+        const closeBtn = messageContainer.querySelector(".close-btn");
+        closeBtn.addEventListener("click", () => {
+            messageContainer.remove();
+        })
+
+
+        document.body.appendChild(messageContainer);
+
+    }
+
 
     courses();    //call the course function to allow the courses to load
 });
