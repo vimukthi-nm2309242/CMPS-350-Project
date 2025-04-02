@@ -18,23 +18,23 @@ document.addEventListener("DOMContentLoaded", function(){
     const password = pw.value.trim();
     const type = typeOF.value.trim();
 
-    usernameError.textContent = "";
-    passwordError.textContent = "";
-    loginError.textContent = "";
+    usernameError.innerText = "";
+    passwordError.innerText = "";
+    loginError.innerText = "";
 
     let hasError = false;  //this acts as a flag so itll reset the entire login page
 
 
     if(!username ||!password){
-      loginError.textContent = "Fill in all fields.";
+      loginError.innerText = "Fill in all fields.";
       hasError = true;
     }
     if (!username) {
-      loginError.textContent = "Username is required.";
+      loginError.innerText = "Username is required.";
       hasError = true;
     }
     if (!password) {
-      loginError.textContent = "Password is required.";
+      loginError.innerText = "Password is required.";
       hasError = true;
     }
     if (hasError) return;
