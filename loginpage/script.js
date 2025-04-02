@@ -49,15 +49,18 @@ document.addEventListener("DOMContentLoaded", function(){
     );
 
     if(detail){
+
+      localStorage.setItem('currentUser',username);   //saves username into local storage which can be used for registration
+
       if(type==="student"){
         window.location.href = "../student_pages/studentdashboard.html";
       }
-      else if(type==="instructor"){
-        window.location.href="https://www.youtube.com/";
-      }
-      else if(type==="admin"){
-        window.location.href="https://www.google.com/";
-      }
+      // else if(type==="instructor"){
+      //   window.location.href="https://www.youtube.com/";
+      // }
+      // else if(type==="admin"){
+      //   window.location.href="https://www.google.com/";
+      // }
     }
     else{
       loginError.textContent = "Invalid username, password, or type.";
