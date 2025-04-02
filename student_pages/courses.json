@@ -1,61 +1,66 @@
 [
     {
-      "id": 1,
+      "id": "cmps351",
       "code": "CMPS 351",
       "name": "Fundamentals of Database",
       "category": "Databases",
       "instructor": "Vimukthi Ashen",
       "description":"Learn about database design and SQL",
-      "prerequisites": [1],
+      "prerequisites": [],
       "openForRegistration": true,
-      "availableSeats": 15
+      "availableSeats": 15,
+      "registeredStudents": []
     },
     {
-      "id": 2,
+      "id": "cmps303",
       "code": "CMPS 303",
       "name": "Data Structures",
       "category": "Programming",
       "instructor": "John Smith",
       "description":"Understand various data structures",
-      "prerequisites": [1],
+      "prerequisites": ["cmps251"],
       "openForRegistration": true,
-      "availableSeats": 25
+      "availableSeats": 25,
+      "registeredStudents": []
     },
     {
-      "id": 3,
+      "id": "cmps405",
       "code": "CMPS 405",
       "name": "Operating Systems",
       "category": "Systems",
       "instructor": "Sarah Jones",
       "description":"Learn about Operating systems",
-      "prerequisites": [2],
+      "prerequisites": ["cmps251","cmps263"],
       "openForRegistration": false,
-      "availableSeats": 10
+      "availableSeats": 10,
+      "registeredStudents": []
     },
     {
-      "id": 4,
+      "id": "cmps251",
       "code": "CMPS 251",
       "name": "Object-Oriented Programming",
       "category": "Programming",
       "instructor": "Ahmed Hassan",
       "description":"Deeper dive into programming",
-      "prerequisites": [1],
+      "prerequisites": ["cmps151"],
       "openForRegistration": true,
-      "availableSeats": 15
+      "availableSeats": 15,
+      "registeredStudents": []
     },
     {
-      "id": 5,
+      "id": "cmps350",
       "code": "CMPS 350",
       "name": "Web Development",
       "category": "Programming",
       "instructor": "Maria Rodriguez",
       "description":"Build websites using HTML, CSS, Javascript and more",
-      "prerequisites": [1],
+      "prerequisites": ["cmps251"],
       "openForRegistration": true,
-      "availableSeats": 10
+      "availableSeats": 10,
+      "registeredStudents": []
     },
     {
-      "id": 6,
+      "id": "cmps263",
       "code": "CMPS 263",
       "name": "Computer Architecure and Organization",
       "category": "Engineering",
@@ -63,10 +68,11 @@
       "description":"Learn about the basics about computer architecture",
       "prerequisites": [],
       "openForRegistration": false,
-      "availableSeats": 20
+      "availableSeats": 20,
+      "registeredStudents": []
     },
     {
-      "id": 6,
+      "id": "cmps151",
       "code": "CMPS 151",
       "name": "Programming Concepts",
       "category": "Programming",
@@ -74,6 +80,8 @@
       "description":"Stepping stone to programming",
       "prerequisites": [],
       "openForRegistration": true,
-      "availableSeats": 30
+      "availableSeats": 30,
+      "registeredStudents": []
     }
   ]
+

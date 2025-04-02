@@ -121,12 +121,7 @@ button:hover {
     font-size: 18px;
     color: #666;
 }
-.desc p:nth-child(3) {
-    margin: 0;
-    font-size: 15px;
-    font-weight: bold;
-    color: #666;
-}
+
 
 .desc p:last-child {
     font-style: italic;
