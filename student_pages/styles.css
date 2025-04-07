@@ -1,14 +1,45 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: "Scada", sans-serif;
 }
-  
+
 body {
-    /* font-family: "Scada", sans-serif; */
     background-color: #fffeec;
     min-height: 100vh;
+}
+
+button {
+    border-radius: 5px;
+    border: 1px solid #000;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F0F0F0;
+}
+
+button:hover {
+    box-shadow: 2.85px 2.85px 0px 0px #000;
+}
+
+/* the css used below from here is used for the dashbaord webpage */
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.container a {
+    cursor: pointer;
 }
 
 .navigation {
@@ -22,46 +53,17 @@ body {
 .search {
     display: flex;
     justify-content: center;
-    /* font-family: "Scada", sans-serif; */
 }
 
 .search input {
-    min-width: 300px;  
+    min-width: 300px;
     width: 100%;
-    padding: 8px 12px; 
+    padding: 8px 12px;
     border: 1px solid #ccc;
-    border-radius: 4px; 
-    font-size: 16px;    
+    border-radius: 4px;
+    font-size: 16px;
 }
 
-button{
-    border-radius: 5px;
-    border: 1px solid #000;
-    transition: transform 0.3s ease;
-    cursor: pointer;
-    padding: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #F0F0F0;
-    
-}
-
-.container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-gap: 20px;
-
-}
-
-.container a{
-    cursor: pointer;
-}
-  
 .classes {
     display: flex;
     flex-direction: column;
@@ -69,22 +71,16 @@ button{
     border-radius: 4px;
     background-color: white;
     height: 100%;
+    width: 100%;
 }
-.items{
+
+.items {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
     padding-right: 15px;
-}
-
-.register-btn{
-    font-size: 16px;
-    margin-left: 3em;
-}
-
-button:hover {
-    box-shadow: 2.85px 2.85px 0px 0px #000;
 }
 
 .desc {
@@ -92,20 +88,27 @@ button:hover {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    width: 100%;
 }
-  
+
 .desc h3 {
     margin: 0 0 5px 0;
     font-size: 28px;
     color: #333;
 }
-  
+
+.desc-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .desc p {
     margin: 0;
     font-size: 18px;
     color: #666;
 }
-
 
 .desc p:last-child {
     font-style: italic;
@@ -113,12 +116,9 @@ button:hover {
     margin-top: 5px;
 }
 
-.classes a {
-    text-decoration: none;
-    color: inherit;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+.register-btn {
+    font-size: 16px;
+    margin-left: auto;
 }
 
 .messageContainer {
@@ -130,7 +130,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .message-content {
@@ -156,10 +156,31 @@ button:hover {
     border-radius: 5px;
     border: 1px solid #000;
     padding: 6px;
-    background-color:#F0F0F0;
+    background-color: #F0F0F0;
 }
 
-.close-btn:hover{
-    box-shadow: 2.85px 2.85px 0px 0px #000;
+
+/* the css below here is used for the learningpath.html */
+
+.report{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
 }
 
+
+/*below css is for responsive design works in both websites*/
+
+@media (max-width: 640px) {
+    .navigation {
+        gap: 2em;
+        padding-top: 1.5em;
+    }
+    
+    .search input {
+        min-width: 200px;
+    }
+}

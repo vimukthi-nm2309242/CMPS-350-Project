@@ -3,21 +3,45 @@
       "username": "student1",
       "password": "123",
       "type": "student",
-      "completedCourses": ["cmps251","cmps151"],
+      "completedCourses": [
+          {
+            "courseID": "cmps251",
+            "grade": "A"
+          },
+          {
+            "courseID": "cmps151",
+            "grade":"B+"
+          }
+        ],
       "registeredCourses": []
     },
     {
       "username": "student2",
       "password": "111",
       "type": "student",
-      "completedCourses": [],
+      "completedCourses": [
+        {}
+      ],
       "registeredCourses": []
     },
     {
       "username": "student3",
       "password": "222",
       "type": "student",
-      "completedCourses": ["cmps251","cmpe263","cmps151"],
+      "completedCourses": [
+          {
+            "courseID": "cmps251",
+            "grade":"B"
+          },
+          {
+            "courseID": "cmps151",
+            "grade":"A"
+          },
+          {
+            "courseID": "cmpe263",
+            "grade":"B+"
+          }
+      ],
       "registeredCourses": []
     },
     {

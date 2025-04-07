@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function(){
     let hasError = false;  //this acts as a flag so itll reset the entire login page
 
 
-    if(!username ||!password){
+    if(!username && !password){
       loginError.innerText = "Fill in all fields.";
       hasError = true;
     }
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
     if(detail){
 
-      localStorage.setItem('currentUser',username);   //saves username into local storage which can be used for registration
+      localStorage.setItem('currentUser', JSON.stringify(username));   //saves username into local storage which can be used for registration
 
       if(type==="student"){
         window.location.href = "../student_pages/studentdashboard.html";

@@ -1,8 +1,23 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", async function () {
     let allCourses = [];
 
-    let currentUser = localStorage.getItem('currentUser');
-    let currentStudent;
+    let currentUser = JSON.parse(localStorage.getItem('currentUser'));
+
+    // if(!currentUser){
+    //     window.location.href = "../loginpage/index.html";   //login checker
+    // }
+
+    async function retrieveUser(){
+        const response = await fetch("../loginpage/users.json");
+        if(response.ok){
+            const users = await response.json();
+
+            return users.find(user => user.username === currentUser.username);
+        }
+        return null;
+    }
+    //code to find array of the current user from users.json
+
 
     async function courses() {
         const response = await fetch("courses.json");
@@ -12,7 +27,6 @@ document.addEventListener("DOMContentLoaded", function () {
             
             filter(searchbar.value);     //this function allows use to input a value into the search field to filter stuff
 
-            // console.log(allCourses)
         }
     }
 
@@ -35,6 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
             registerBtn.addEventListener("click", async () => {
                 
                 const result = await prerequisiteCheck(course.id);
+                
 
                 if(result.success){
                     courseUpdate(course.id);
@@ -46,17 +61,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
             courseHTML.innerHTML = `
                 <div class="items">
-                    <div class="desc">
-                        <h3>${course.code}</h3>
-                        <p>${course.name}</p>
+            <div class="desc">
+                <h3>${course.name}</h3>
+                <div class="desc-content">
+                    <div>
+                        <p><strong>${course.code}</strong></p>
                         <p>Instructor: ${course.instructor ?? "TBD"}</p>
                         <p>Available seats: ${course.availableSeats}</p>
                         <p>Prerequisites: ${course.prerequisites.length > 0 ? course.prerequisites.join(", ") : "None"}</p>
-
                     </div>
-                    <div class="register-btn">
-                    </div>
+                    <div class="register-btn"></div>
                 </div>
+            </div>
+        </div>
             `;
 
             courseHTML.querySelector(".register-btn").appendChild(registerBtn);
@@ -95,15 +112,6 @@ document.addEventListener("DOMContentLoaded", function () {
         filter(searchbar.value);            
     })
 
-    async function retrieveUser(){
-        const response = await fetch("../loginpage/users.json");
-        if(response.ok){
-            const users = await response.json();
-
-            return users.find(user => user.username === currentUser);
-        }
-        return null;
-    }
 
     async function prerequisiteCheck(courseId){
         const course = allCourses.find(course => course.id === courseId);   
@@ -113,22 +121,43 @@ document.addEventListener("DOMContentLoaded", function () {
 
         console.log(user);
 
+        if (!user.registeredCourses) {
+            user.registeredCourses = [];
+        }
+        
+        if (!user.completedCourses) {
+            user.completedCourses = [];
+        }
+
+
         if(!course.openForRegistration){
             return {
                 success: false,
-                message: "Course is not open for registration"
+                message: "Course is not open for registration."
             };
         }
 
         if(course.availableSeats <=0){
             return {
                 success: false,
-                message: "Course is full"
+                message: "Course is full."
+            };
+        }
+
+        if (user.registeredCourses.includes(course.id)) {
+            return {
+                success: false,
+                message: "You are already registered for this course"
+            };
+        }
+
+        if (user.completedCourses.includes(course.id)) {
+            return {
+                success: false,
+                message: "You have already completed this course"
             };
         }
         
-        // need to add a validation if student has already completed a course
-        // so it will prevent them from reregistering for same course
 
         const missingPrerequisites = course.prerequisites.filter(c => !user.completedCourses.includes(c));
         //this variable filters out the prerequisities that the current user has not completed
@@ -179,9 +208,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const user = await retrieveUser();
 
-        user.registeredCourses.push(course.id);
+        user.registeredCourses.push({id: course.id, status: "pending"}); //this is mainly used for the admin implementation
 
-        localStorage.setItem('courses', JSON.stringify(allCourses));
+        localStorage.setItem('courses', JSON.stringify(allCourses));   //saves the course data into local storage
+        localStorage.setItem('currentUser',JSON.stringify(user));       //same for the user info as well
     
         const response = await fetch("../loginpage/users.json");
         if (response.ok) {
@@ -190,9 +220,10 @@ document.addEventListener("DOMContentLoaded", function () {
             if (userIndex !== -1) {
                 users[userIndex] = user;
  
-                console.log("Updated users:", users);
             }
         }
+        //the above method calls the users.json and finds the index of the student that is registering for the course
+        //after retrieving the index we then update the information of the user of that particular index
 
         displayCourses(allCourses); //rerender the state
 
