@@ -15,7 +15,9 @@
             "grade":"B+"
           }
         ],
-      "registeredCourses": []
+        "registeredCourses": [
+          {}
+        ]
     },
     {
       "username": "student2",
@@ -24,7 +26,9 @@
       "completedCourses": [
         {}
       ],
-      "registeredCourses": []
+      "registeredCourses": [
+        {}
+      ]
     },
     {
       "username": "student3",

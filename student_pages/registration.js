@@ -3,9 +3,9 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     let currentUser = JSON.parse(localStorage.getItem('currentUser'));
 
-    // if(!currentUser){
-    //     window.location.href = "../loginpage/index.html";   //login checker
-    // }
+    if(!currentUser){
+        window.location.href = "../loginpage/index.html";   //login checker
+    }
 
     async function retrieveUser(){
         const response = await fetch("../loginpage/users.json");
@@ -202,7 +202,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     async function courseUpdate(course){
         course = allCourses.find(c => c.id === course)
 
-        course.availableSeats--;
+        // course.availableSeats--;
 
         const user = await retrieveUser();
 
