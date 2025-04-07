@@ -161,17 +161,54 @@ button:hover {
 
 
 /* the css below here is used for the learningpath.html */
-
-.report{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding: 20px;
+.report {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
 }
-
-
+  
+.course-box {
+    margin-bottom: 30px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.8);
+    background-color: white;
+}
+  
+.course-title {
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+  
+.completed .course-title {
+    background-color: #7ED68B; /* Light green */
+}
+  
+.pending .course-title {
+    background-color: #E88B8B; /* Light red/pink */
+}
+  
+.course-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+  
+.course-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+  
+.grade {
+    text-align: right;
+    width: 100px;
+    font-weight: bold;
+}
 /*below css is for responsive design works in both websites*/
 
 @media (max-width: 640px) {
