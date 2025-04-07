@@ -2,17 +2,17 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     let currentUser = JSON.parse(localStorage.getItem('currentUser'));
 
-    if (!currentUser) {
-        window.location.href = "../loginpage/index.html"; //login check
-        return;
-    }
+    // if (!currentUser) {
+    //     window.location.href = "../loginpage/index.html"; //login check
+    //     return;
+    // }
 
     async function retrieveUser(){
         const response = await fetch("../loginpage/users.json");
         if(response.ok){
             const users = await response.json();
 
-            return users.find(user => user.username === currentUser);
+            return users.find(user => user.username === currentUser.username);
         }
         return null;
     }

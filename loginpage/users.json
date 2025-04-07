@@ -6,10 +6,12 @@
       "completedCourses": [
           {
             "courseID": "cmps251",
+            "courseName": "Object Oriented Programming",
             "grade": "A"
           },
           {
             "courseID": "cmps151",
+            "courseName": "Programming Concepts",
             "grade":"B+"
           }
         ],
@@ -31,18 +33,23 @@
       "completedCourses": [
           {
             "courseID": "cmps251",
+            "courseName": "Object Oriented Programming",
             "grade":"B"
           },
           {
             "courseID": "cmps151",
+            "courseName": "Programming Concepts",
             "grade":"A"
           },
           {
             "courseID": "cmpe263",
+            "courseName": "Computer Architecture and Organization",
             "grade":"B+"
           }
       ],
-      "registeredCourses": []
+      "registeredCourses": [
+        {}
+      ]
     },
     {
       "username": "instructor1",

@@ -119,8 +119,6 @@ document.addEventListener("DOMContentLoaded", async function () {
         
         const user = await retrieveUser(); //get logged in user information
 
-        console.log(user);
-
         if (!user.registeredCourses) {
             user.registeredCourses = [];
         }
