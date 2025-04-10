@@ -9,7 +9,9 @@ body {
     background-color: #fffeec;
     min-height: 100vh;
 }
-
+a{
+    text-decoration: none;
+}
 button {
     border-radius: 5px;
     border: 1px solid #000;
@@ -184,6 +186,10 @@ button:hover {
   
 .completed .course-title {
     background-color: #7ED68B; /* Light green */
+}
+
+.inprogress .course-title {
+    background-color: #7e98d6; /* Light green */
 }
   
 .pending .course-title {

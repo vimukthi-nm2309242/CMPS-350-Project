@@ -15,6 +15,13 @@
             "grade":"B+"
           }
         ],
+        "currentCourses":[
+          {
+            "courseID": "cmps303",
+            "courseName": "Data Structures",
+            "grade":"-"
+          }
+        ],
         "registeredCourses": [
           {}
         ]

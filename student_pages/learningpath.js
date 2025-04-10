@@ -41,6 +41,20 @@ document.addEventListener("DOMContentLoaded", async function () {
         });
 
     }
+    async function displayCourseInProgress(){
+        const inProgressContainer = document.querySelector(".inprogress")
+        user.currentCourses.forEach(current => {
+            const courseRow = document.createElement("div");
+            courseRow.classList.add("course-row");
+            
+            courseRow.innerHTML = `
+                <div>${current.courseName ?? "No courses"}</div>
+                <div class="grade">${current.grade ?? "-"}</div>
+            `;
+            
+            inProgressContainer.appendChild(courseRow);
+        });
+    }
 
     async function displayPendingCourses() {
 
@@ -64,5 +78,6 @@ document.addEventListener("DOMContentLoaded", async function () {
     // Call the function to display courses
     displayCompletedCourses();
     displayPendingCourses();
+    displayCourseInProgress();
 
 } );
