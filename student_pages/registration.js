@@ -152,7 +152,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         if (missingPrerequisites.length > 0) {
             return {
                 success: false,
-                message: `You need to complete ${missingPrerequisites.join(", ")} before registering for ${course.id}`
+                message: `You need to complete ${missingPrerequisites.join(", ")} before registering for ${course.code}`
             }
         }
 

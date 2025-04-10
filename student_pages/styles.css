@@ -146,7 +146,7 @@ button:hover {
     padding: 20px;
     border-radius: 8px;
     max-width: 80%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -172,7 +172,7 @@ button:hover {
 .report {
     max-width: 400px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 60px;
 }
   
 .course-box {
@@ -191,15 +191,15 @@ button:hover {
 }
   
 .completed .course-title {
-    background-color: #7ED68B; /* Light green */
+    background-color: #7ED68B;
 }
 
 .inprogress .course-title {
-    background-color: #7e98d6; /* Light green */
+    background-color: #7e98d6; 
 }
   
 .pending .course-title {
-    background-color: #E88B8B; /* Light red/pink */
+    background-color: #E88B8B; 
 }
   
 .course-header {

@@ -67,7 +67,6 @@ document.addEventListener("DOMContentLoaded", async function () {
             
             courseRow.innerHTML = `
                 <div>${registeredCourse.courseName ?? "No courses"}</div>
-                <div class="grade">${registeredCourse.grade ?? "-"}</div>
             `;
             
             pendingCoursesContainer.appendChild(courseRow);
@@ -77,7 +76,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     // Call the function to display courses
     displayCompletedCourses();
-    displayPendingCourses();
     displayCourseInProgress();
+    displayPendingCourses();
 
 } );

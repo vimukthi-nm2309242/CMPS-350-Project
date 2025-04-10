@@ -8,6 +8,7 @@
       "description":"Learn about database design and SQL",
       "prerequisites": [],
       "openForRegistration": true,
+      "status":"open",
       "availableSeats": 15,
       "registeredStudents": []
     },
@@ -20,6 +21,7 @@
       "description":"Understand various data structures",
       "prerequisites": ["cmps251"],
       "openForRegistration": true,
+      "status":"open",
       "availableSeats": 25,
       "registeredStudents": []
     },
@@ -32,6 +34,7 @@
       "description":"Learn about Operating systems",
       "prerequisites": ["cmps251","cmps263"],
       "openForRegistration": true,
+      "status":"open",
       "availableSeats": 10,
       "registeredStudents": []
     },
@@ -44,6 +47,7 @@
       "description":"Deeper dive into programming",
       "prerequisites": ["cmps151"],
       "openForRegistration": true,
+      "status":"open",
       "availableSeats": 15,
       "registeredStudents": []
     },
@@ -56,6 +60,7 @@
       "description":"Build websites using HTML, CSS, Javascript and more",
       "prerequisites": ["cmps251"],
       "openForRegistration": true,
+      "status":"open",
       "availableSeats": 10,
       "registeredStudents": []
     },
@@ -68,6 +73,7 @@
       "description":"Learn about the basics about computer architecture",
       "prerequisites": [],
       "openForRegistration": false,
+      "status":"open",
       "availableSeats": 20,
       "registeredStudents": []
     },
@@ -80,6 +86,7 @@
       "description":"Stepping stone to programming",
       "prerequisites": [],
       "openForRegistration": true,
+      "status":"open",
       "availableSeats": 30,
       "registeredStudents": []
     }
