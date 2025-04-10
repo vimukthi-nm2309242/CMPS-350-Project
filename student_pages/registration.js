@@ -94,9 +94,14 @@ document.addEventListener("DOMContentLoaded", async function () {
     const searchbar = document.querySelector("#searchitem");
     const searchbtn = document.querySelector("#searchbtn");
 
-    searchbtn.addEventListener("click", () => {
+    // searchbtn.addEventListener("click", () => {
+    //     filter(searchbar.value);
+    // });
+
+    searchbar.addEventListener("input", ()=>{
         filter(searchbar.value);
     });
+
 
     // Check if user meets course prerequisites
     async function prerequisiteCheck(courseId) {

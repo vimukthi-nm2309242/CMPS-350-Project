@@ -71,10 +71,16 @@ button:hover {
     flex-direction: column;
     border: 1px solid black;
     border-radius: 4px;
+    transition: transform 0.3s ease;
     background-color: white;
+    box-shadow: 2.85px 2.85px 0px 0px #000;
     height: 100%;
     width: 100%;
 }
+
+/* .classes:hover{
+    box-shadow: 2.85px 2.85px 0px 0px #000;
+} */
 
 .items {
     display: flex;
@@ -226,4 +232,8 @@ button:hover {
     .search input {
         min-width: 200px;
     }
+
+    /* .signout{
+
+    } */
 }
