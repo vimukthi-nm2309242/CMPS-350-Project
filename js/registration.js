@@ -2,13 +2,19 @@ document.addEventListener("DOMContentLoaded", async function () {
     let allCourses = [];
     let currentUser = JSON.parse(localStorage.getItem('currentUser'));
 
+
+    //selected only one dom element which is the signout button
+    const signOutBtn = document.getElementById("signOut");
+    signOutBtn.addEventListener("click", signOut);
+
+
     if (!currentUser) {
-        window.location.href = "../loginpage/index.html";   //login checker
+        window.location.href = "../login.html";   //login checker
     }
 
     // Fetch user data from users.json
     async function retrieveUser() {
-        const response = await fetch("../loginpage/users.json");
+        const response = await fetch("./jsons/users.json");
         if (response.ok) {
             const users = await response.json();
             return users.find(user => user.username === currentUser.username);
@@ -18,7 +24,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     // Fetch and display courses
     async function courses() {
-        const response = await fetch("courses.json");
+        const response = await fetch("./jsons/courses.json");
         if (response.ok) {
             allCourses = await response.json();
             displayCourses(allCourses);     //passes all the courses objects to the display courses function
@@ -108,7 +114,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         const course = allCourses.find(course => course.id === courseId);
         const user = await retrieveUser(); //get logged in user information
 
-        console.log(user);
+        // console.log(user);
 
         if (!user.registeredCourses) {
             user.registeredCourses = [];
@@ -185,14 +191,27 @@ document.addEventListener("DOMContentLoaded", async function () {
     // Update course and user registration
     async function courseUpdate(course) {
         course = allCourses.find(c => c.id === course);
+        
         course.availableSeats--;
+        if (!course.registeredStudents) {
+            course.registeredStudents = [];
+        }
+
+        course.registeredStudents.push(currentUser.username); //pushes the particular user's username to array for admin to see
 
         const user = await retrieveUser();
-        user.registeredCourses.push({ courseID: course.id, courseName: course.name, status: "pending" });
+        user.registeredCourses.push({ 
+            courseID: course.id, 
+            courseName: course.name, 
+            status: "pending" 
+        });
 
+        localStorage.setItem('allCourses', JSON.stringify(allCourses));
         localStorage.setItem('currentUser', JSON.stringify(user));
 
-        const response = await fetch("../loginpage/users.json");
+        // this code in the bottom is used to update user data
+        // searches for student and then adds the new info into it
+        const response = await fetch("./jsons/users.json");
         if (response.ok) {
             const users = await response.json();
             const userIndex = users.findIndex(u => u.username === user.username);
@@ -201,7 +220,45 @@ document.addEventListener("DOMContentLoaded", async function () {
             }
         }
 
+        //calling api to save registration
+        // const API_ENDPOINT = 'http://localhost:3001/api/users';
+        // const response = await fetch('/api/register-course', {
+        //     method: 'PUT',
+        //     headers: {
+        //         'Content-Type': 'application/json'
+        //     },
+        //     body: JSON.stringify({
+        //         userId: currentUser.id,
+        //         courseId: course
+        //     })
+        // });
+        
+        // const result = await response.json();
+
+        // if (!result.success) {
+        //     console.error('Error saving registration:', result.message);
+        //     courseMsg('Registration added locally, but failed to save to server: ' + result.message);
+        // } else {
+        //     // Fetch updated user info
+        //     const user = await retrieveUser();
+        //     localStorage.setItem('currentUser', JSON.stringify(user));
+        //     console.log('Registration saved successfully!');
+        // }
+
+
+
+        // localStorage.setItem('currentUser', JSON.stringify(user));
+        // localStorage.setItem('allCourses', JSON.stringify(allCourses));
+        
+        // console.log(course.registeredStudents);
+        console.log(user);
+
         displayCourses(allCourses); //rerender the state
+    }
+
+    function signOut() {
+        localStorage.removeItem("currentUser");
+        window.location.href = "../login.html";
     }
 
     courses();    //call the course function to allow the courses to load

@@ -23,7 +23,6 @@
           }
         ],
         "registeredCourses": [
-          {}
         ]
     },
     {
@@ -31,13 +30,15 @@
       "password": "111",
       "type": "student",
       "completedCourses": [
-        {}
       ],
       "currentCourses":[
-        {}
+        {
+          "courseID": "cmps151",
+          "courseName": "Programming Concepts",
+          "grade":"-"
+        }
       ],
       "registeredCourses": [
-        {}
       ]
     },
     {
@@ -74,27 +75,35 @@
         }
       ],
       "registeredCourses": [
-        {}
       ]
     },
     {
-      "username": "instructor1",
+      "id":"1000",
+      "username": "John Smith",
       "password": "teacher123",
       "type": "instructor"
     },
     {
-      "username": "instructor2",
+      "id":"1001",
+      "username": "Sarah Jones",
       "password": "teacher456",
       "type": "instructor"
     },
     {
-      "username": "instructor3",
+      "id":"1002",
+      "username": "Fernando Alonso",
       "password": "teacher789",
       "type": "instructor"
     },
     {
+      "id":"1003",
+      "username": "Maria Rodriguez",
+      "password": "teacher111",
+      "type": "instructor"
+    },
+    {
       "username": "admin1",
-      "password": "admin123",
+      "password": "123",
       "type": "admin"
     },
     {

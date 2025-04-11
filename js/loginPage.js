@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function(){
     }
     if (hasError) return;
 
-    const response = await fetch("users.json");
+    const response = await fetch("./jsons/users.json");
     const users = await response.json();
 
     const detail = users.find(u => 
@@ -52,13 +52,16 @@ document.addEventListener("DOMContentLoaded", function(){
 
       localStorage.setItem('currentUser', JSON.stringify({
         username: detail.username,
-        type: detail.type,
-        completedCourses: detail.completedCourses ?? [],
-        registeredCourses: detail.registeredCourses ?? []
+        type: detail.type
+        // completedCourses: detail.completedCourses ?? [],
+        // registeredCourses: detail.registeredCourses ?? []
       }));
 
       if(type==="student"){
-        window.location.href = "../student_pages/studentdashboard.html";
+        window.location.href = "studentdashboard.html";
+      }
+      if(type==="admin"){
+        window.location.href="adminpage.html";
       }
     }
     else{

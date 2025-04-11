@@ -2,13 +2,18 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     let currentUser = JSON.parse(localStorage.getItem('currentUser'));
 
+
+    const signOutBtn = document.getElementById("signOut");
+    signOutBtn.addEventListener("click", signOut);
+
+
     if (!currentUser) {
-        window.location.href = "../loginpage/index.html"; //login check
+        window.location.href = "../login.html"; //login check
         return;
     }
 
     async function retrieveUser(){
-        const response = await fetch("../loginpage/users.json");
+        const response = await fetch("./jsons/users.json");
         if(response.ok){
             const users = await response.json();
 
@@ -26,19 +31,30 @@ document.addEventListener("DOMContentLoaded", async function () {
     async function displayCompletedCourses() {
 
         const completedCoursesContainer = document.querySelector(".completed");
-        
+        const courseRow = document.createElement("div");
+        courseRow.classList.add("course-row");
 
-        user.completedCourses.forEach(completedCourse => {
-            const courseRow = document.createElement("div");
-            courseRow.classList.add("course-row");
-            
+        if(user.completedCourses.length === 0){
             courseRow.innerHTML = `
-                <div>${completedCourse.courseName ?? "No courses"}</div>
-                <div class="grade">${completedCourse.grade ?? "-"}</div>
+                <div>No courses completed yet.</div>
+                <div class="grade">-</div>
             `;
-            
+
             completedCoursesContainer.appendChild(courseRow);
-        });
+        }
+        else{
+            user.completedCourses.forEach(completedCourse => {
+                const courseRow = document.createElement("div");
+                courseRow.classList.add("course-row");
+            
+                courseRow.innerHTML = `
+                    <div>${completedCourse.courseName}</div>
+                    <div class="grade">${completedCourse.grade}</div>
+                `;
+            
+                completedCoursesContainer.appendChild(courseRow);
+            });
+        }
 
     }
     async function displayCourseInProgress(){
@@ -72,6 +88,10 @@ document.addEventListener("DOMContentLoaded", async function () {
             pendingCoursesContainer.appendChild(courseRow);
         });
 
+    }
+    function signOut() {
+        localStorage.removeItem("currentUser");
+        window.location.href = "../login.html";
     }
 
     // Call the function to display courses
