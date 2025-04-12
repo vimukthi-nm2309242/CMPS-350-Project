@@ -35,15 +35,6 @@ document.addEventListener("DOMContentLoaded", async function () {
     categoryFilter.addEventListener("change", filterCourses);
     courseForm.addEventListener("submit", handleCourseSubmit);
 
-    
-
-    // Functions
-    async function initDashboard() {
-        await loadCourses();
-        await loadUsers();
-        populateCategoryFilter();
-        displayCourses(allCourses);
-    }
 
     async function loadCourses() {
         // const response = await fetch("./jsons/courses.json");
@@ -89,9 +80,15 @@ document.addEventListener("DOMContentLoaded", async function () {
             
             // Determine status badge color
             let statusClass = "";
-            if (course.status === "open") statusClass = "status-open";
-            else if (course.status === "in-progress") statusClass = "status-in-progress";
-            else if (course.status === "closed") statusClass = "status-closed";
+            if (course.status === "open"){
+                statusClass = "status-open";
+            } 
+            else if (course.status === "in-progress"){
+                statusClass = "status-in-progress";
+            }
+            else if (course.status === "closed"){
+                statusClass = "status-closed";
+            } 
             
             const totalSeats = course.availableSeats + course.registeredStudents.length;
             
@@ -122,7 +119,7 @@ document.addEventListener("DOMContentLoaded", async function () {
             coursesContainer.appendChild(courseCard);
         });
 
-        // Add event listeners to action buttons
+        // Event listeners to action buttons
         document.querySelectorAll(".validate-btn").forEach(btn => {
             btn.addEventListener("click", () => validateCourse(btn.dataset.courseId));
         });
@@ -195,11 +192,12 @@ document.addEventListener("DOMContentLoaded", async function () {
         courseModal.style.display = "block";
     }
 
+    // Function used to create the new course when user clicks on create new course button
     async function handleCourseSubmit(e) {
         e.preventDefault();
         
         const courseId = document.getElementById("courseId").value;
-        const isEdit = !!courseId;
+        const isEdit = !!courseId;  //used to convert the courseID into a boolean
         
         const courseData = {
             id: courseId,
@@ -216,7 +214,7 @@ document.addEventListener("DOMContentLoaded", async function () {
             status: document.getElementById("courseStatus").value,
             openForRegistration: document.getElementById("openForRegistration").checked,
             registeredStudents: isEdit ? 
-                allCourses.find(c => c.id === courseId)?.registeredStudents || [] 
+                allCourses.find(c => c.id === courseId)?.registeredStudents ?? [] 
                 : []
         };
         
@@ -230,11 +228,9 @@ document.addEventListener("DOMContentLoaded", async function () {
             // Add new course
             allCourses.push(courseData);
         }
-        
-        // In a real app, you would save to the server here
-        // For now, we'll just update the display
-        // await saveCourses();
-        await saveCourse(courseData);
+
+        // await saveCourse(courseData);
+        await saveCourse(allCourses);
         displayCourses(allCourses);
         courseModal.style.display = "none";
     }
@@ -243,7 +239,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         const course = allCourses.find(c => c.id === courseId);
         if (!course) return;
         
-        // Check if course has enough registrations (let's say at least 5 for demo)
+        // Check if course has enough students registered and we use temp value 
         if (course.registeredStudents.length >= 5) {
             course.status = "in-progress";
         } else {
@@ -251,15 +247,13 @@ document.addEventListener("DOMContentLoaded", async function () {
             course.openForRegistration = false;
         }
         
-        // await saveCourses();
-        await saveCourse(allCourses)
+        // await saveCourse(allCourses)
         displayCourses(allCourses);
     }
 
     async function deleteCourse(courseId) {
             allCourses = allCourses.filter(c => c.id !== courseId);
-            // await saveCourses();
-            await saveCourse(allCourses)
+            // await saveCourse(allCourses)
             displayCourses(allCourses);
     }
 
@@ -288,12 +282,19 @@ document.addEventListener("DOMContentLoaded", async function () {
       
     }
 
-
     function signOut() {
         localStorage.removeItem("currentUser");
         window.location.href = "../login.html";
     }
 
-    //call all functions to make dashboard work
+    // Functions
+    async function initDashboard() {
+        await loadCourses();
+        await loadUsers();
+        populateCategoryFilter();
+        displayCourses(allCourses);
+    }
+
+    // Call all functions to initialize dashboard work
     await initDashboard();
 });
