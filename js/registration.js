@@ -5,7 +5,9 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     //selected only one dom element which is the signout button
     const signOutBtn = document.getElementById("signOut");
-    signOutBtn.addEventListener("click", signOut);
+    if (signOutBtn) {
+        signOutBtn.addEventListener("click", signOut);
+    }
 
 
     if (!currentUser) {
@@ -14,7 +16,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     // Fetch user data from users.json
     async function retrieveUser() {
-        const response = await fetch("./jsons/users.json");
+        const response = await fetch("./cmpsphase1/app/data/users.json");
         if (response.ok) {
             const users = await response.json();
             return users.find(user => user.username === currentUser.username);
@@ -24,7 +26,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     // Fetch and display courses
     async function courses() {
-        const response = await fetch("./jsons/courses.json");
+        const response = await fetch("./cmpsphase1/app/data/courses.json");
         if (response.ok) {
             allCourses = await response.json();
             displayCourses(allCourses);     //passes all the courses objects to the display courses function

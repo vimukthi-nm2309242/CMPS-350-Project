@@ -13,6 +13,7 @@ class CourseRepo{
     }
 
     //add courses
+    //POST /api/courses
     async addCourse(course){
         const courses = await this.getCourses()
         course.id = nanoid(5);
