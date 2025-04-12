@@ -23,6 +23,7 @@ class CourseRepo{
         return course
     }
 
+    //retrieve course
     async getCourseById(id){
         const courses = await this.getCourses()
         const course = courses.find(course => course.id === id)
@@ -33,6 +34,7 @@ class CourseRepo{
         return course
     }
 
+    //update course
     async updateCourse(id, course){
         const courses = await this.getCourses();
         const courseIndex = courses.findIndex(course => course.id ===id)
@@ -46,6 +48,7 @@ class CourseRepo{
         return course
     }
 
+    //method to delete course
     async deleteCourse(id){
         const courses = await this.getCourses()
         const courseIndex = courses.findIndex(course => course.id ===id)
