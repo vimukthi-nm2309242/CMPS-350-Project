@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Scada:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+    <link rel="stylesheet" href="./css/admin.css">
+    <script src="./js/admin.js" type="module"></script>
+</head>
+<body>
+    <div class="admin-container">
+        <header>
+            <h1>Admin Dashboard</h1>
+            <button id="signOut">Sign Out</button>
+        </header>
+        
+        <div class="admin-content">
+            <div class="admin-sidebar">
+                <button id="viewAllCourses">All Courses</button>
+                <button id="viewOpenCourses">Open For Registration</button>
+                <button id="createCourseBtn">Create New Course</button>
+            </div>
+            
+            <div class="course-display">
+                <div class="course-filters">
+                    <select id="statusFilter">
+                        <option value="all">All Statuses</option>
+                        <option value="open">Open</option>
+                        <option value="in-progress">In Progress</option>
+                        <option value="closed">Closed</option>
+                    </select>
+                    <select id="categoryFilter">
+                        <option value="all">All Categories</option>
+                        <!-- Will be added through JS -->
+                    </select>
+                </div>
+                
+                <div id="coursesContainer" class="courses-container">
+                   <!-- Will be added through JS -->
+                </div>
+            </div>
+        </div>
+        
+        <!-- Creating/editing courses -->
+        <div id="courseModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="modalTitle">Create New Course</h2>
+                <form id="courseForm">
+                    <input type="hidden" id="courseId">
+                    <div class="form-group">
+                        <label for="courseCode">Course Code:</label>
+                        <input type="text" id="courseCode" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="courseName">Course Name:</label>
+                        <input type="text" id="courseName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="courseCategory">Category:</label>
+                        <input type="text" id="courseCategory" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="courseInstructor">Instructor:</label>
+                        <select id="courseInstructor">
+                            <!-- Instructors will be searched through json -->
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="courseDescription">Description:</label>
+                        <textarea id="courseDescription" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="courseSeats">Available Seats:</label>
+                        <input type="number" id="courseSeats" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="coursePrerequisites">Prerequisites (comma separated):</label>
+                        <input type="text" id="coursePrerequisites">
+                    </div>
+                    <div class="form-group">
+                        <label for="courseStatus">Status:</label>
+                        <select id="courseStatus">
+                            <option value="open">Open</option>
+                            <option value="closed">Closed</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="openForRegistration">Open for Registration:</label>
+                        <input type="checkbox" id="openForRegistration">
+                    </div>
+                    <button type="submit">Save Course</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
