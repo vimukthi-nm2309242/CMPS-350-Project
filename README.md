@@ -26,3 +26,7 @@
    - This works properly as it reads from the json files
    - However the pending courses require the implementation of persistence to make it work properly.
 
+5. Use case 5
+   - Developed the admin page
+   - Added all the required features
+   - Displays all the courses that 
