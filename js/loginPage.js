@@ -60,6 +60,9 @@ document.addEventListener("DOMContentLoaded", function(){
       if(type==="student"){
         window.location.href = "studentdashboard.html";
       }
+      if(type ==="instructor"){
+        window.location.href="instructor.html";
+      }
       if(type==="admin"){
         window.location.href="adminpage.html";
       }
