@@ -29,4 +29,5 @@
 5. Use case 5
    - Developed the admin page
    - Added all the required features
-   - Displays all the courses that 
+   - Displays all the courses that with a filtering system
+   - Was not able to implement the persistence system 
