@@ -4,8 +4,9 @@ document.addEventListener("DOMContentLoaded", async function () {
 
 
     const signOutBtn = document.getElementById("signOut");
-    signOutBtn.addEventListener("click", signOut);
-
+    if (signOutBtn) {
+        signOutBtn.addEventListener("click", signOut);
+    }
 
     if (!currentUser) {
         window.location.href = "../login.html"; //login check
@@ -25,7 +26,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     const user = await retrieveUser();
 
     const headerDiv = document.querySelector(".studName");
-    headerDiv.innerHTML = `<h2>Welcome ${user.username}</h2>`;
+    headerDiv.innerHTML = `<h2>Hello ${user.username}!</h2>`;
 
 
     async function displayCompletedCourses() {
