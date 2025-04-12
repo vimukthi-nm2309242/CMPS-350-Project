@@ -1,6 +1,6 @@
 [
     {
-      "username": "Lewis",
+      "username": "student1",
       "password": "123",
       "type": "student",
       "completedCourses": [
@@ -26,7 +26,7 @@
         ]
     },
     {
-      "username": "Leclerc",
+      "username": "student2",
       "password": "111",
       "type": "student",
       "completedCourses": [
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "username": "Billie",
+      "username": "student3",
       "password": "222",
       "type": "student",
       "completedCourses": [
@@ -78,32 +78,23 @@
       ]
     },
     {
-      "id":"1000",
-      "username": "John Smith",
+      "username": "instructor1",
       "password": "teacher123",
       "type": "instructor"
     },
     {
-      "id":"1001",
-      "username": "Sarah Jones",
+      "username": "instructor2",
       "password": "teacher456",
       "type": "instructor"
     },
     {
-      "id":"1002",
-      "username": "Fernando Alonso",
+      "username": "instructor3",
       "password": "teacher789",
       "type": "instructor"
     },
     {
-      "id":"1003",
-      "username": "Maria Rodriguez",
-      "password": "teacher111",
-      "type": "instructor"
-    },
-    {
       "username": "admin1",
-      "password": "123",
+      "password": "admin123",
       "type": "admin"
     },
     {

@@ -1,0 +1,94 @@
+[
+    {
+      "id": "cmps351",
+      "code": "CMPS 351",
+      "name": "Fundamentals of Database",
+      "category": "Databases",
+      "instructor": "Vimukthi Ashen",
+      "description":"Learn about database design and SQL",
+      "prerequisites": [],
+      "openForRegistration": true,
+      "status":"open",
+      "availableSeats": 15,
+      "registeredStudents": []
+    },
+    {
+      "id": "cmps303",
+      "code": "CMPS 303",
+      "name": "Data Structures",
+      "category": "Programming",
+      "instructor": "John Smith",
+      "description":"Understand various data structures",
+      "prerequisites": ["cmps251"],
+      "openForRegistration": true,
+      "status":"open",
+      "availableSeats": 25,
+      "registeredStudents": []
+    },
+    {
+      "id": "cmps405",
+      "code": "CMPS 405",
+      "name": "Operating Systems",
+      "category": "Systems",
+      "instructor": "Sarah Jones",
+      "description":"Learn about Operating systems",
+      "prerequisites": ["cmps251","cmps263"],
+      "openForRegistration": true,
+      "status":"open",
+      "availableSeats": 10,
+      "registeredStudents": []
+    },
+    {
+      "id": "cmps251",
+      "code": "CMPS 251",
+      "name": "Object-Oriented Programming",
+      "category": "Programming",
+      "instructor": "Ahmed Hassan",
+      "description":"Deeper dive into programming",
+      "prerequisites": ["cmps151"],
+      "openForRegistration": true,
+      "status":"open",
+      "availableSeats": 15,
+      "registeredStudents": []
+    },
+    {
+      "id": "cmps350",
+      "code": "CMPS 350",
+      "name": "Web Development",
+      "category": "Programming",
+      "instructor": "Maria Rodriguez",
+      "description":"Build websites using HTML, CSS, Javascript and more",
+      "prerequisites": ["cmps251"],
+      "openForRegistration": true,
+      "status":"open",
+      "availableSeats": 10,
+      "registeredStudents": []
+    },
+    {
+      "id": "cmpe263",
+      "code": "CMPE 263",
+      "name": "Computer Architecture and Organization",
+      "category": "Engineering",
+      "instructor": "Jane Doe",
+      "description":"Learn about the basics about computer architecture",
+      "prerequisites": [],
+      "openForRegistration": false,
+      "status":"open",
+      "availableSeats": 20,
+      "registeredStudents": []
+    },
+    {
+      "id": "cmps151",
+      "code": "CMPS 151",
+      "name": "Programming Concepts",
+      "category": "Programming",
+      "instructor": "Fernando Alonso",
+      "description":"Stepping stone to programming",
+      "prerequisites": [],
+      "openForRegistration": true,
+      "status":"open",
+      "availableSeats": 30,
+      "registeredStudents": []
+    }
+  ]
+

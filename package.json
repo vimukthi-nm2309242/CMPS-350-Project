@@ -1,0 +1,23 @@
+{
+  "name": "cmps-350-project-phase-1-",
+  "version": "1.0.0",
+  "description": "-----------------------------------------------",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vimukthi-nm2309242/CMPS-350-Project-Phase-1-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vimukthi-nm2309242/CMPS-350-Project-Phase-1-/issues"
+  },
+  "homepage": "https://github.com/vimukthi-nm2309242/CMPS-350-Project-Phase-1-#readme",
+  "dependencies": {
+    "nanoid": "^5.1.5"
+  }
+}
