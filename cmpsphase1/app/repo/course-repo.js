@@ -15,12 +15,12 @@ class CourseRepo{
     //add courses
     //POST /api/courses
     async addCourse(course){
-        const courses = await this.getCourses()
+        const courses = await this.getCourses();
         course.id = nanoid(5);
-        courses.push(course)
-        await fs.writeJSON(this.filePath, courses)
+        courses.push(course);
+        await fs.writeJSON(this.filePath, courses);
         
-        return course
+        return course;
     }
 
     //retrieve course
@@ -58,7 +58,7 @@ class CourseRepo{
         }
         courses.splice(courseIndex, 1)
         await fs.writeJSON(this.filePath, courses);
-        return 'course deleted'
+        return 'course deleted';
          
     }
 }

@@ -1,106 +1,120 @@
 [
-    {
-      "username": "student1",
-      "password": "123",
-      "type": "student",
-      "completedCourses": [
-          {
-            "courseID": "cmps251",
-            "courseName": "Object Oriented Programming",
-            "grade": "A"
-          },
-          {
-            "courseID": "cmps151",
-            "courseName": "Programming Concepts",
-            "grade":"B+"
-          }
-        ],
-        "currentCourses":[
-          {
-            "courseID": "cmps303",
-            "courseName": "Data Structures",
-            "grade":"-"
-          }
-        ],
-        "registeredCourses": [
-        ]
-    },
-    {
-      "username": "student2",
-      "password": "111",
-      "type": "student",
-      "completedCourses": [
-      ],
-      "currentCourses":[
+  {
+    "username": "Lewis",
+    "password": "123",
+    "type": "student",
+    "completedCourses": [
+        {
+          "courseID": "cmps251",
+          "courseName": "Object Oriented Programming",
+          "grade": "A"
+        },
         {
           "courseID": "cmps151",
           "courseName": "Programming Concepts",
-          "grade":"-"
+          "grade":"B+"
         }
-      ],
-      "registeredCourses": [
-      ]
-    },
-    {
-      "username": "student3",
-      "password": "222",
-      "type": "student",
-      "completedCourses": [
-          {
-            "courseID": "cmps251",
-            "courseName": "Object Oriented Programming",
-            "grade":"B"
-          },
-          {
-            "courseID": "cmps151",
-            "courseName": "Programming Concepts",
-            "grade":"A"
-          },
-          {
-            "courseID": "cmpe263",
-            "courseName": "Computer Architecture and Organization",
-            "grade":"B+"
-          }
       ],
       "currentCourses":[
         {
           "courseID": "cmps303",
           "courseName": "Data Structures",
           "grade":"-"
-        },
-        {
-          "courseID":"cmps351",
-          "courseName":"Fundamentals of Database",
-          "grade":"-"
         }
       ],
       "registeredCourses": [
       ]
-    },
-    {
-      "username": "instructor1",
-      "password": "teacher123",
-      "type": "instructor"
-    },
-    {
-      "username": "instructor2",
-      "password": "teacher456",
-      "type": "instructor"
-    },
-    {
-      "username": "instructor3",
-      "password": "teacher789",
-      "type": "instructor"
-    },
-    {
-      "username": "admin1",
-      "password": "admin123",
-      "type": "admin"
-    },
-    {
-      "username": "admin2",
-      "password": "admin321",
-      "type": "admin"
-    }
-  ]
-  
+  },
+  {
+    "username": "Leclerc",
+    "password": "111",
+    "type": "student",
+    "completedCourses": [
+    ],
+    "currentCourses":[
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade":"-"
+      }
+    ],
+    "registeredCourses": [
+    ]
+  },
+  {
+    "username": "Billie",
+    "password": "222",
+    "type": "student",
+    "completedCourses": [
+        {
+          "courseID": "cmps251",
+          "courseName": "Object Oriented Programming",
+          "grade":"B"
+        },
+        {
+          "courseID": "cmps151",
+          "courseName": "Programming Concepts",
+          "grade":"A"
+        },
+        {
+          "courseID": "cmpe263",
+          "courseName": "Computer Architecture and Organization",
+          "grade":"B+"
+        }
+    ],
+    "currentCourses":[
+      {
+        "courseID": "cmps303",
+        "courseName": "Data Structures",
+        "grade":"-"
+      },
+      {
+        "courseID":"cmps351",
+        "courseName":"Fundamentals of Database",
+        "grade":"-"
+      }
+    ],
+    "registeredCourses": [
+    ]
+  },
+  {
+    "id":"1000",
+    "username": "John Smith",
+    "password": "teacher123",
+    "type": "instructor"
+  },
+  {
+    "id":"1001",
+    "username": "Sarah Jones",
+    "password": "teacher456",
+    "type": "instructor"
+  },
+  {
+    "id":"1002",
+    "username": "Fernando Alonso",
+    "password": "teacher789",
+    "type": "instructor"
+  },
+  {
+    "id":"1003",
+    "username": "Maria Rodriguez",
+    "password": "teacher111",
+    "type": "instructor"
+  },
+  {
+    "id":"1004",
+    "username": "Carlos Sainz",
+    "password": "teacher112",
+    "type": "instructor"
+  },
+  {
+    "username": "admin1",
+    "password": "123",
+    "type": "admin"
+  },
+  {
+    "username": "admin2",
+    "password": "admin321",
+    "type": "admin"
+  }
+]
