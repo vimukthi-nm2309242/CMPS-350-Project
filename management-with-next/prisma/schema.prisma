@@ -11,4 +11,103 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+//create a user first because we have 3 types
+model User {
+  id       String   @id @default(cuid())
+  username String   @unique
+  password String
+  type     UserType
 
+  // Relations based on type
+  student    Student?
+  instructor Instructor?
+  admin      Admin?
+}
+
+enum UserType {
+  student
+  instructor
+  admin
+}
+
+// Student model and has relation with the user model
+model Student {
+  id                String             @id @default(cuid())
+  user              User               @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId            String             @unique
+  completedCourses  CompletedCourse[]
+  currentCourses    CurrentCourse[]
+  registeredCourses RegisteredCourse[]
+}
+
+// Instructor model
+model Instructor {
+  id      String   @id @default(cuid())
+  user    User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId  String   @unique
+  courses Course[] //needed to see which course the instructor teaches
+}
+
+// Admin model
+model Admin {
+  id     String @id @default(cuid())
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId String @unique
+}
+
+// Course model 
+model Course {
+  id                  String      @id
+  code                String?      @unique
+  name                String
+  category            String?
+  description         String?
+  instructor          String?
+  instructorRelation  Instructor? @relation(fields: [instructorId], references: [id])
+  instructorId        String?
+  openForRegistration Boolean     @default(true)
+  status              String      @default("open")
+  availableSeats      Int         @default(0)
+  prerequisites       Json? //used json because its much easier to map the courses
+  //extra fields needed based on the course.json format that i have made before
+
+  //relations to link
+  completedCourses  CompletedCourse[]
+  currentCourses    CurrentCourse[]
+  registeredCourses RegisteredCourse[]
+}
+
+// CompletedCourse model
+model CompletedCourse {
+  id        String  @id @default(cuid())
+  student   Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  studentId String
+  course    Course  @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  courseId  String
+  grade     String
+
+  @@unique([studentId, courseId])
+}
+
+// CurrentCourse model
+model CurrentCourse {
+  id        String  @id @default(cuid())
+  student   Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  studentId String
+  course    Course  @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  courseId  String
+  grade     String? // Optional because it could be in progress
+
+  @@unique([studentId, courseId])
+}
+
+// RegisteredCourse model
+model RegisteredCourse {
+  id        String  @id @default(cuid())
+  student   Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  studentId String
+  course    Course  @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  courseId  String
+
+  @@unique([studentId, courseId])
+}
