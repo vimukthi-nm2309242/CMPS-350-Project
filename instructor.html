@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grades Submission</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Scada:wght@400;700&display=swap" rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/instructor.css">
+    <script src="./js/instructor.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Grades Submission</h1>
+        <nav>
+            <a href="#">Dashboard</a> |
+            <a href="#">Courses</a> |
+            <a href="#">Logout</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>My Courses</h2>
+            <select id="courseSelect">
+                <option value="">-- Select Course --</option>
+                <option value="cmps351">CMPS 351 - Database Fundamentals</option>
+                <option value="cmps303">CMPS 303 - Data Structures</option>
+                <option value="cmps251">CMPS 251 - OOP</option>
+            </select>
+        </section>
+
+        <section id="gradeSubmissionSection">
+            <h2>Submit Grades</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Student ID</th>
+                        <th>Student Name</th>
+                        <th>Grade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>student1</td>
+                        <td>John Doe</td>
+                        <td>
+                            <select>
+                                <option value="">Select Grade</option>
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                                <option value="C">C</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>student2</td>
+                        <td>Jane Smith</td>
+                        <td>
+                            <select>
+                                <option value="">Select Grade</option>
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                                <option value="C">C</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>student3</td>
+                        <td>Mike Johnson</td>
+                        <td>
+                            <select>
+                                <option value="">Select Grade</option>
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                                <option value="C">C</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                            </select>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <button type="button">Submit Grades</button>
+        </section>
+    </main>
+
+</body>
+</html>
