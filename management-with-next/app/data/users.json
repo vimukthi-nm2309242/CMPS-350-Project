@@ -1,0 +1,3731 @@
+[
+  {
+    "username": "Lewis",
+    "password": "123",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps251",
+        "courseName": "Object Oriented Programming",
+        "grade": "A"
+      },
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "B+"
+      }
+    ],
+    "currentCourses": [
+      {
+        "courseID": "cmps303",
+        "courseName": "Data Structures",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "Leclerc",
+    "password": "111",
+    "type": "student",
+    "completedCourses": [],
+    "currentCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "Billie",
+    "password": "222",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps251",
+        "courseName": "Object Oriented Programming",
+        "grade": "B"
+      },
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "A"
+      },
+      {
+        "courseID": "cmpe263",
+        "courseName": "Computer Architecture and Organization",
+        "grade": "B+"
+      }
+    ],
+    "currentCourses": [
+      {
+        "courseID": "cmps303",
+        "courseName": "Data Structures",
+        "grade": "-"
+      },
+      {
+        "courseID": "cmps351",
+        "courseName": "Fundamentals of Database",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student4",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "C"
+      }
+    ],
+    "currentCourses": [
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student5",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [],
+    "currentCourses": [
+      {
+        "courseID": "cmps101",
+        "courseName": "Introduction to Computing",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student6",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "A-"
+      },
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "B+"
+      }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "-" },
+      { "courseID": "cmps350", "courseName": "Web Development", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student7",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "B"
+      },
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "C+"
+      },
+      {
+        "courseID": "cmps221",
+        "courseName": "Discrete Mathematics",
+        "grade": "A"
+      }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "-" },
+      { "courseID": "cmps405", "courseName": "Operating Systems", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student8",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "B+"
+      }
+    ],
+    "currentCourses": [
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "-"
+      },
+      {
+        "courseID": "cmps201",
+        "courseName": "Introduction to Algorithms",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student9",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps101",
+        "courseName": "Introduction to Computing",
+        "grade": "A"
+      },
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "A-"
+      }
+    ],
+    "currentCourses": [
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student10",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "C+"
+      },
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "C"
+      },
+      {
+        "courseID": "cmpe263",
+        "courseName": "Computer Architecture and Organization",
+        "grade": "D+"
+      }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps405", "courseName": "Operating Systems", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student11",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "B-"
+      },
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "B"
+      },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A-" }
+    ],
+    "currentCourses": [
+      {
+        "courseID": "cmps420",
+        "courseName": "Artificial Intelligence",
+        "grade": "-"
+      },
+      { "courseID": "cmps485", "courseName": "Machine Learning", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student12",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "A"
+      },
+      {
+        "courseID": "cmps210",
+        "courseName": "Programming with Python",
+        "grade": "A"
+      }
+    ],
+    "currentCourses": [
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student13",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps101",
+        "courseName": "Introduction to Computing",
+        "grade": "B"
+      }
+    ],
+    "currentCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "-"
+      },
+      {
+        "courseID": "cmps180",
+        "courseName": "Introduction to Web Technologies",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student14",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "C"
+      },
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "D"
+      }
+    ],
+    "currentCourses": [],
+    "registeredCourses": [
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "-"
+      }
+    ]
+  },
+  {
+    "username": "student15",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "B+"
+      },
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "A"
+      },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      {
+        "courseID": "cmps351",
+        "courseName": "Fundamentals of Database",
+        "grade": "B+"
+      }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps430", "courseName": "Data Mining", "grade": "-" },
+      {
+        "courseID": "cmps455",
+        "courseName": "Big Data Analytics",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student16",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "A"
+      }
+    ],
+    "currentCourses": [
+      {
+        "courseID": "cmps210",
+        "courseName": "Programming with Python",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student17",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [],
+    "currentCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student18",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps101",
+        "courseName": "Introduction to Computing",
+        "grade": "B-"
+      }
+    ],
+    "currentCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student19",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "A"
+      },
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "A"
+      },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps411", "courseName": "Compiler Design", "grade": "-" },
+      {
+        "courseID": "cmps315",
+        "courseName": "Theory of Computation",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student20",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "C"
+      },
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "B-"
+      }
+    ],
+    "currentCourses": [
+      {
+        "courseID": "cmps360",
+        "courseName": "Software Engineering",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student21",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [],
+    "currentCourses": [
+      {
+        "courseID": "cmps101",
+        "courseName": "Introduction to Computing",
+        "grade": "-"
+      },
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student22",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "A-"
+      },
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "B+"
+      },
+      {
+        "courseID": "cmps221",
+        "courseName": "Discrete Mathematics",
+        "grade": "B"
+      }
+    ],
+    "currentCourses": [
+      {
+        "courseID": "cmps390",
+        "courseName": "Introduction to Cryptography",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student23",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "B"
+      },
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "C+"
+      },
+      { "courseID": "cmps350", "courseName": "Web Development", "grade": "A-" }
+    ],
+    "currentCourses": [
+      {
+        "courseID": "cmps380",
+        "courseName": "Mobile Application Development",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student24",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "B"
+      }
+    ],
+    "currentCourses": [
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "-"
+      },
+      {
+        "courseID": "cmps253",
+        "courseName": "Introduction to C++",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student25",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "A"
+      },
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "A"
+      },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      {
+        "courseID": "cmps201",
+        "courseName": "Introduction to Algorithms",
+        "grade": "A"
+      }
+    ],
+    "currentCourses": [
+      {
+        "courseID": "cmps305",
+        "courseName": "Design and Analysis of Algorithms",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student26",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "C"
+      },
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "C+"
+      },
+      { "courseID": "cmps370", "courseName": "Computer Networks", "grade": "B" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps475", "courseName": "Network Security", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student27",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "B+"
+      },
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "A"
+      }
+    ],
+    "currentCourses": [
+      {
+        "courseID": "cmps351",
+        "courseName": "Fundamentals of Database",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student28",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "B-"
+      },
+      {
+        "courseID": "cmps210",
+        "courseName": "Programming with Python",
+        "grade": "A"
+      }
+    ],
+    "currentCourses": [],
+    "registeredCourses": [
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "-"
+      }
+    ]
+  },
+  {
+    "username": "student29",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps101",
+        "courseName": "Introduction to Computing",
+        "grade": "C+"
+      },
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "B"
+      },
+      {
+        "courseID": "cmps221",
+        "courseName": "Discrete Mathematics",
+        "grade": "A-"
+      }
+    ],
+    "currentCourses": [
+      {
+        "courseID": "cmps315",
+        "courseName": "Theory of Computation",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student30",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "A"
+      },
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "A-"
+      },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "B+" },
+      { "courseID": "cmps405", "courseName": "Operating Systems", "grade": "A" }
+    ],
+    "currentCourses": [
+      {
+        "courseID": "cmps401",
+        "courseName": "Distributed Systems",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student31",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "B"
+      },
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "C"
+      }
+    ],
+    "currentCourses": [
+      {
+        "courseID": "cmps299",
+        "courseName": "Programming Workshop",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student32",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "A-"
+      },
+      {
+        "courseID": "cmps221",
+        "courseName": "Discrete Mathematics",
+        "grade": "B+"
+      }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps325", "courseName": "Numerical Methods", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student33",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps180",
+        "courseName": "Introduction to Web Technologies",
+        "grade": "B"
+      },
+      { "courseID": "cmps350", "courseName": "Web Development", "grade": "A" }
+    ],
+    "currentCourses": [
+      {
+        "courseID": "cmps380",
+        "courseName": "Mobile Application Development",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student34",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "B"
+      },
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "C"
+      },
+      {
+        "courseID": "cmps360",
+        "courseName": "Software Engineering",
+        "grade": "B+"
+      }
+    ],
+    "currentCourses": [
+      {
+        "courseID": "cmps365",
+        "courseName": "Software Project Management",
+        "grade": "-"
+      },
+      {
+        "courseID": "cmps498",
+        "courseName": "Senior Project I (CMPS)",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student35",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "A"
+      },
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "A"
+      },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      {
+        "courseID": "cmps420",
+        "courseName": "Artificial Intelligence",
+        "grade": "A-"
+      },
+      { "courseID": "cmps485", "courseName": "Machine Learning", "grade": "A" }
+    ],
+    "currentCourses": [
+      {
+        "courseID": "cmps495",
+        "courseName": "Special Topics in AI",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student36",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "C-"
+      }
+    ],
+    "currentCourses": [
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student37",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [],
+    "currentCourses": [
+      {
+        "courseID": "cmps101",
+        "courseName": "Introduction to Computing",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "-"
+      }
+    ]
+  },
+  {
+    "username": "student38",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "B"
+      },
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "B+"
+      },
+      {
+        "courseID": "cmps351",
+        "courseName": "Fundamentals of Database",
+        "grade": "A-"
+      }
+    ],
+    "currentCourses": [
+      {
+        "courseID": "cmps435",
+        "courseName": "Database Administration",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student39",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "A"
+      },
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "A"
+      },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      {
+        "courseID": "cmps345",
+        "courseName": "Concurrent Programming",
+        "grade": "B+"
+      }
+    ],
+    "currentCourses": [],
+    "registeredCourses": []
+  },
+  {
+    "username": "student40",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "C"
+      },
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "F"
+      }
+    ],
+    "currentCourses": [],
+    "registeredCourses": [
+      {
+        "courseID": "cmps251",
+        "courseName": "Object-Oriented Programming",
+        "grade": "-"
+      }
+    ]
+  },
+  {
+    "username": "student400",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      {
+        "courseID": "cmps151",
+        "courseName": "Programming Concepts",
+        "grade": "B"
+      }
+    ],
+    "currentCourses": [
+      {
+        "courseID": "cmps210",
+        "courseName": "Programming with Python",
+        "grade": "-"
+      }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student411",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student412",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps101", "courseName": "Introduction to Computing", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student413",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C+" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student414",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps221", "courseName": "Discrete Mathematics", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps315", "courseName": "Theory of Computation", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student415",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B-" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps360", "courseName": "Software Engineering", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student416",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps420", "courseName": "Artificial Intelligence", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps485", "courseName": "Machine Learning", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student417",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "D+" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps299", "courseName": "Programming Workshop", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student418",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps101", "courseName": "Introduction to Computing", "grade": "B+" },
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A-" },
+      { "courseID": "cmps180", "courseName": "Introduction to Web Technologies", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps350", "courseName": "Web Development", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student419",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A-" },
+      { "courseID": "cmps210", "courseName": "Programming with Python", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B+" }
+    ],
+    "currentCourses": [
+       { "courseID": "cmps380", "courseName": "Mobile Application Development", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student420",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B+" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps345", "courseName": "Concurrent Programming", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps405", "courseName": "Operating Systems", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+    {
+    "username": "student421",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B+" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A-" },
+      { "courseID": "cmps351", "courseName": "Fundamentals of Database", "grade": "B+" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps430", "courseName": "Data Mining", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student422",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [],
+    "currentCourses": [
+      { "courseID": "cmps101", "courseName": "Introduction to Computing", "grade": "-" },
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student423",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C" },
+      { "courseID": "cmps221", "courseName": "Discrete Mathematics", "grade": "B" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps390", "courseName": "Introduction to Cryptography", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student424",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps201", "courseName": "Introduction to Algorithms", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps305", "courseName": "Design and Analysis of Algorithms", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student425",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C+" },
+      { "courseID": "cmps370", "courseName": "Computer Networks", "grade": "B+" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps475", "courseName": "Network Security", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student426",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps210", "courseName": "Programming with Python", "grade": "-" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student427",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps101", "courseName": "Introduction to Computing", "grade": "B-" },
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C+" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps221", "courseName": "Discrete Mathematics", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student428",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A-" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B+" },
+      { "courseID": "cmps351", "courseName": "Fundamentals of Database", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps435", "courseName": "Database Administration", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student429",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A-" },
+      { "courseID": "cmps345", "courseName": "Concurrent Programming", "grade": "B" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps405", "courseName": "Operating Systems", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student430",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "F" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": [
+       { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "-" }
+    ]
+  },
+    {
+    "username": "student431",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A-" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "B+" },
+      { "courseID": "cmps405", "courseName": "Operating Systems", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps401", "courseName": "Distributed Systems", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student432",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C" },
+      { "courseID": "cmps299", "courseName": "Programming Workshop", "grade": "B+" }
+    ],
+    "currentCourses": [
+       { "courseID": "cmps360", "courseName": "Software Engineering", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student433",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A-" },
+      { "courseID": "cmps221", "courseName": "Discrete Mathematics", "grade": "B+" },
+      { "courseID": "cmps325", "courseName": "Numerical Methods", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps415", "courseName": "Formal Verification", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student434",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps180", "courseName": "Introduction to Web Technologies", "grade": "B" },
+      { "courseID": "cmps350", "courseName": "Web Development", "grade": "A" },
+      { "courseID": "cmps380", "courseName": "Mobile Application Development", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps460", "courseName": "Cloud Security", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student435",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C" },
+      { "courseID": "cmps360", "courseName": "Software Engineering", "grade": "B+" },
+      { "courseID": "cmps365", "courseName": "Software Project Management", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps498", "courseName": "Senior Project I (CMPS)", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+   {
+    "username": "student436",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps420", "courseName": "Artificial Intelligence", "grade": "A-" },
+      { "courseID": "cmps485", "courseName": "Machine Learning", "grade": "A" },
+      { "courseID": "cmps495", "courseName": "Special Topics in AI", "grade": "A" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": []
+  },
+  {
+    "username": "student437",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C-" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "D" }
+    ],
+    "currentCourses": [
+       { "courseID": "cmps303", "courseName": "Data Structures", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student438",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [],
+    "currentCourses": [
+      { "courseID": "cmps101", "courseName": "Introduction to Computing", "grade": "-" },
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "-" },
+      { "courseID": "cmps180", "courseName": "Introduction to Web Technologies", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student439",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B+" },
+      { "courseID": "cmps351", "courseName": "Fundamentals of Database", "grade": "A-" },
+      { "courseID": "cmps435", "courseName": "Database Administration", "grade": "B" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps455", "courseName": "Big Data Analytics", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student440",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps345", "courseName": "Concurrent Programming", "grade": "A-" },
+      { "courseID": "cmps405", "courseName": "Operating Systems", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps401", "courseName": "Distributed Systems", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student441",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "F" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C+" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": []
+  },
+  {
+    "username": "student442",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B+" },
+      { "courseID": "cmps210", "courseName": "Programming with Python", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "-" },
+      { "courseID": "cmps300", "courseName": "Introduction to Scientific Computing", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student443",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps101", "courseName": "Introduction to Computing", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "-" },
+      { "courseID": "cmps221", "courseName": "Discrete Mathematics", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student444",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B+" },
+      { "courseID": "cmps350", "courseName": "Web Development", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps380", "courseName": "Mobile Application Development", "grade": "-" },
+      { "courseID": "cmps330", "courseName": "Introduction to Human-Computer Interaction", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student445",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps420", "courseName": "Artificial Intelligence", "grade": "A" },
+      { "courseID": "cmps485", "courseName": "Machine Learning", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps490", "courseName": "Natural Language Processing", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student446",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C-" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C" },
+      { "courseID": "cmps360", "courseName": "Software Engineering", "grade": "B-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps365", "courseName": "Software Project Management", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student447",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [],
+    "currentCourses": [
+      { "courseID": "cmps101", "courseName": "Introduction to Computing", "grade": "-" }
+    ],
+    "registeredCourses": [
+       { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "-" },
+       { "courseID": "cmps180", "courseName": "Introduction to Web Technologies", "grade": "-" }
+    ]
+  },
+  {
+    "username": "student448",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B+" },
+      { "courseID": "cmps351", "courseName": "Fundamentals of Database", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps435", "courseName": "Database Administration", "grade": "-" },
+      { "courseID": "cmps455", "courseName": "Big Data Analytics", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student449",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps345", "courseName": "Concurrent Programming", "grade": "A-" },
+      { "courseID": "cmps405", "courseName": "Operating Systems", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps401", "courseName": "Distributed Systems", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student450",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "D+" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": [
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "-" },
+      { "courseID": "cmps299", "courseName": "Programming Workshop", "grade": "-" }
+    ]
+  },
+    {
+    "username": "student451",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A-" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "B+" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps420", "courseName": "Artificial Intelligence", "grade": "-" },
+      { "courseID": "cmps480", "courseName": "Robotics", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student452",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps210", "courseName": "Programming with Python", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B+" }
+    ],
+    "currentCourses": [
+       { "courseID": "cmps300", "courseName": "Introduction to Scientific Computing", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student453",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [],
+    "currentCourses": [
+      { "courseID": "cmps101", "courseName": "Introduction to Computing", "grade": "-" },
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "-" },
+      { "courseID": "cmps221", "courseName": "Discrete Mathematics", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student454",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A-" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B+" },
+      { "courseID": "cmps350", "courseName": "Web Development", "grade": "A" },
+      { "courseID": "cmps330", "courseName": "Introduction to Human-Computer Interaction", "grade": "B" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps380", "courseName": "Mobile Application Development", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student455",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C+" },
+      { "courseID": "cmps360", "courseName": "Software Engineering", "grade": "B-" },
+      { "courseID": "cmps365", "courseName": "Software Project Management", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps498", "courseName": "Senior Project I (CMPS)", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student456",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps420", "courseName": "Artificial Intelligence", "grade": "A" },
+      { "courseID": "cmps485", "courseName": "Machine Learning", "grade": "A" },
+      { "courseID": "cmps490", "courseName": "Natural Language Processing", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps495", "courseName": "Special Topics in AI", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student457",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C-" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "D" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "C" }
+    ],
+    "currentCourses": [
+       { "courseID": "cmps405", "courseName": "Operating Systems", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student458",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [],
+    "currentCourses": [
+      { "courseID": "cmps101", "courseName": "Introduction to Computing", "grade": "-" },
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "-" },
+      { "courseID": "cmps180", "courseName": "Introduction to Web Technologies", "grade": "-" },
+      { "courseID": "cmps221", "courseName": "Discrete Mathematics", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student459",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B+" },
+      { "courseID": "cmps351", "courseName": "Fundamentals of Database", "grade": "A-" },
+      { "courseID": "cmps435", "courseName": "Database Administration", "grade": "B" },
+      { "courseID": "cmps455", "courseName": "Big Data Analytics", "grade": "A" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": []
+  },
+  {
+    "username": "student460",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps345", "courseName": "Concurrent Programming", "grade": "A-" },
+      { "courseID": "cmps405", "courseName": "Operating Systems", "grade": "A" },
+      { "courseID": "cmps401", "courseName": "Distributed Systems", "grade": "A" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": []
+  },
+  {
+    "username": "student461",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "F" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C+" },
+      { "courseID": "cmps299", "courseName": "Programming Workshop", "grade": "B-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps360", "courseName": "Software Engineering", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student462",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B+" },
+      { "courseID": "cmps210", "courseName": "Programming with Python", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B+" },
+      { "courseID": "cmps300", "courseName": "Introduction to Scientific Computing", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps325", "courseName": "Numerical Methods", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student463",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps101", "courseName": "Introduction to Computing", "grade": "A" },
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps221", "courseName": "Discrete Mathematics", "grade": "A" },
+      { "courseID": "cmps315", "courseName": "Theory of Computation", "grade": "B+" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps415", "courseName": "Formal Verification", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student464",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C+" },
+      { "courseID": "cmps350", "courseName": "Web Development", "grade": "B" },
+      { "courseID": "cmps330", "courseName": "Introduction to Human-Computer Interaction", "grade": "A-" },
+      { "courseID": "cmps380", "courseName": "Mobile Application Development", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps460", "courseName": "Cloud Security", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student465",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps420", "courseName": "Artificial Intelligence", "grade": "A" },
+      { "courseID": "cmps485", "courseName": "Machine Learning", "grade": "A" },
+      { "courseID": "cmps490", "courseName": "Natural Language Processing", "grade": "A" },
+      { "courseID": "cmps495", "courseName": "Special Topics in AI", "grade": "A" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": []
+  },
+  {
+    "username": "student466",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C-" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "D" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "C" },
+      { "courseID": "cmps405", "courseName": "Operating Systems", "grade": "B-" }
+    ],
+    "currentCourses": [
+       { "courseID": "cmps401", "courseName": "Distributed Systems", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student467",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [],
+    "currentCourses": [
+      { "courseID": "cmps101", "courseName": "Introduction to Computing", "grade": "-" },
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "-" },
+      { "courseID": "cmps180", "courseName": "Introduction to Web Technologies", "grade": "-" },
+      { "courseID": "cmps221", "courseName": "Discrete Mathematics", "grade": "-" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student468",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B+" },
+      { "courseID": "cmps351", "courseName": "Fundamentals of Database", "grade": "A-" },
+      { "courseID": "cmps435", "courseName": "Database Administration", "grade": "B" },
+      { "courseID": "cmps455", "courseName": "Big Data Analytics", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps470", "courseName": "Ethical and Legal Issues in Computing", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student469",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps345", "courseName": "Concurrent Programming", "grade": "A-" },
+      { "courseID": "cmps405", "courseName": "Operating Systems", "grade": "A" },
+      { "courseID": "cmps401", "courseName": "Distributed Systems", "grade": "A" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": []
+  },
+  {
+    "username": "student470",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "F" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C+" },
+      { "courseID": "cmps299", "courseName": "Programming Workshop", "grade": "B-" },
+      { "courseID": "cmps360", "courseName": "Software Engineering", "grade": "C" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps365", "courseName": "Software Project Management", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+    {
+    "username": "student471",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A-" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "B+" },
+      { "courseID": "cmps420", "courseName": "Artificial Intelligence", "grade": "A" },
+      { "courseID": "cmps480", "courseName": "Robotics", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps490", "courseName": "Natural Language Processing", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student472",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps210", "courseName": "Programming with Python", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B+" },
+      { "courseID": "cmps300", "courseName": "Introduction to Scientific Computing", "grade": "A-" },
+      { "courseID": "cmps325", "courseName": "Numerical Methods", "grade": "B" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": []
+  },
+  {
+    "username": "student473",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [],
+    "currentCourses": [
+      { "courseID": "cmps101", "courseName": "Introduction to Computing", "grade": "-" },
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "-" },
+      { "courseID": "cmps180", "courseName": "Introduction to Web Technologies", "grade": "-" },
+      { "courseID": "cmps221", "courseName": "Discrete Mathematics", "grade": "-" }
+    ],
+    "registeredCourses": [
+        { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "-" }
+    ]
+  },
+  {
+    "username": "student474",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A-" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B+" },
+      { "courseID": "cmps350", "courseName": "Web Development", "grade": "A" },
+      { "courseID": "cmps330", "courseName": "Introduction to Human-Computer Interaction", "grade": "B" },
+      { "courseID": "cmps380", "courseName": "Mobile Application Development", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps460", "courseName": "Cloud Security", "grade": "-" },
+      { "courseID": "cmps475", "courseName": "Network Security", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student475",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C+" },
+      { "courseID": "cmps360", "courseName": "Software Engineering", "grade": "B-" },
+      { "courseID": "cmps365", "courseName": "Software Project Management", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps498", "courseName": "Senior Project I (CMPS)", "grade": "-" },
+      { "courseID": "cmps491", "courseName": "Senior Project II (CMPS)", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student476",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps420", "courseName": "Artificial Intelligence", "grade": "A" },
+      { "courseID": "cmps485", "courseName": "Machine Learning", "grade": "A" },
+      { "courseID": "cmps490", "courseName": "Natural Language Processing", "grade": "A" },
+      { "courseID": "cmps495", "courseName": "Special Topics in AI", "grade": "A" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": []
+  },
+  {
+    "username": "student477",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C-" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "D" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "C" },
+      { "courseID": "cmps405", "courseName": "Operating Systems", "grade": "B-" }
+    ],
+    "currentCourses": [
+       { "courseID": "cmps401", "courseName": "Distributed Systems", "grade": "-" },
+       { "courseID": "cmps345", "courseName": "Concurrent Programming", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student478",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [],
+    "currentCourses": [
+      { "courseID": "cmps101", "courseName": "Introduction to Computing", "grade": "-" },
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "-" },
+      { "courseID": "cmps180", "courseName": "Introduction to Web Technologies", "grade": "-" },
+      { "courseID": "cmps221", "courseName": "Discrete Mathematics", "grade": "-" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "-" },
+      { "courseID": "cmps210", "courseName": "Programming with Python", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student479",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B+" },
+      { "courseID": "cmps351", "courseName": "Fundamentals of Database", "grade": "A-" },
+      { "courseID": "cmps435", "courseName": "Database Administration", "grade": "B" },
+      { "courseID": "cmps455", "courseName": "Big Data Analytics", "grade": "A" },
+      { "courseID": "cmps470", "courseName": "Ethical and Legal Issues in Computing", "grade": "A-" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": []
+  },
+  {
+    "username": "student480",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps345", "courseName": "Concurrent Programming", "grade": "A-" },
+      { "courseID": "cmps405", "courseName": "Operating Systems", "grade": "A" },
+      { "courseID": "cmps401", "courseName": "Distributed Systems", "grade": "A" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": []
+  },
+  {
+    "username": "student481",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "F" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C+" },
+      { "courseID": "cmps299", "courseName": "Programming Workshop", "grade": "B-" },
+      { "courseID": "cmps360", "courseName": "Software Engineering", "grade": "C" },
+      { "courseID": "cmps365", "courseName": "Software Project Management", "grade": "B" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps498", "courseName": "Senior Project I (CMPS)", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+    {
+    "username": "student482",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A-" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "B+" },
+      { "courseID": "cmps420", "courseName": "Artificial Intelligence", "grade": "A" },
+      { "courseID": "cmps480", "courseName": "Robotics", "grade": "A-" },
+      { "courseID": "cmps490", "courseName": "Natural Language Processing", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps495", "courseName": "Special Topics in AI", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student483",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps210", "courseName": "Programming with Python", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B+" },
+      { "courseID": "cmps300", "courseName": "Introduction to Scientific Computing", "grade": "A-" },
+      { "courseID": "cmps325", "courseName": "Numerical Methods", "grade": "B" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": []
+  },
+  {
+    "username": "student484",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [],
+    "currentCourses": [
+      { "courseID": "cmps101", "courseName": "Introduction to Computing", "grade": "-" },
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "-" },
+      { "courseID": "cmps180", "courseName": "Introduction to Web Technologies", "grade": "-" },
+      { "courseID": "cmps221", "courseName": "Discrete Mathematics", "grade": "-" }
+    ],
+    "registeredCourses": [
+        { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "-" },
+        { "courseID": "cmps210", "courseName": "Programming with Python", "grade": "-" }
+    ]
+  },
+  {
+    "username": "student485",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A-" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B+" },
+      { "courseID": "cmps350", "courseName": "Web Development", "grade": "A" },
+      { "courseID": "cmps330", "courseName": "Introduction to Human-Computer Interaction", "grade": "B" },
+      { "courseID": "cmps380", "courseName": "Mobile Application Development", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps460", "courseName": "Cloud Security", "grade": "-" },
+      { "courseID": "cmps475", "courseName": "Network Security", "grade": "-" },
+      { "courseID": "cmps390", "courseName": "Introduction to Cryptography", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student486",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C+" },
+      { "courseID": "cmps360", "courseName": "Software Engineering", "grade": "B-" },
+      { "courseID": "cmps365", "courseName": "Software Project Management", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps498", "courseName": "Senior Project I (CMPS)", "grade": "-" },
+      { "courseID": "cmps491", "courseName": "Senior Project II (CMPS)", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student487",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps420", "courseName": "Artificial Intelligence", "grade": "A" },
+      { "courseID": "cmps485", "courseName": "Machine Learning", "grade": "A" },
+      { "courseID": "cmps490", "courseName": "Natural Language Processing", "grade": "A" },
+      { "courseID": "cmps495", "courseName": "Special Topics in AI", "grade": "A" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": []
+  },
+  {
+    "username": "student488",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C-" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "D" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "C" },
+      { "courseID": "cmps405", "courseName": "Operating Systems", "grade": "B-" }
+    ],
+    "currentCourses": [
+       { "courseID": "cmps401", "courseName": "Distributed Systems", "grade": "-" },
+       { "courseID": "cmps345", "courseName": "Concurrent Programming", "grade": "-" },
+       { "courseID": "cmps370", "courseName": "Computer Networks", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student489",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [],
+    "currentCourses": [
+      { "courseID": "cmps101", "courseName": "Introduction to Computing", "grade": "-" },
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "-" },
+      { "courseID": "cmps180", "courseName": "Introduction to Web Technologies", "grade": "-" },
+      { "courseID": "cmps221", "courseName": "Discrete Mathematics", "grade": "-" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "-" },
+      { "courseID": "cmps210", "courseName": "Programming with Python", "grade": "-" }
+    ],
+    "registeredCourses": [
+        { "courseID": "cmps303", "courseName": "Data Structures", "grade": "-" }
+    ]
+  },
+  {
+    "username": "student490",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B+" },
+      { "courseID": "cmps351", "courseName": "Fundamentals of Database", "grade": "A-" },
+      { "courseID": "cmps435", "courseName": "Database Administration", "grade": "B" },
+      { "courseID": "cmps455", "courseName": "Big Data Analytics", "grade": "A" },
+      { "courseID": "cmps470", "courseName": "Ethical and Legal Issues in Computing", "grade": "A-" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": []
+  },
+  {
+    "username": "student491",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps345", "courseName": "Concurrent Programming", "grade": "A-" },
+      { "courseID": "cmps405", "courseName": "Operating Systems", "grade": "A" },
+      { "courseID": "cmps401", "courseName": "Distributed Systems", "grade": "A" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": []
+  },
+  {
+    "username": "student492",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "F" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C+" },
+      { "courseID": "cmps299", "courseName": "Programming Workshop", "grade": "B-" },
+      { "courseID": "cmps360", "courseName": "Software Engineering", "grade": "C" },
+      { "courseID": "cmps365", "courseName": "Software Project Management", "grade": "B" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps498", "courseName": "Senior Project I (CMPS)", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student493",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A-" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "B+" },
+      { "courseID": "cmps420", "courseName": "Artificial Intelligence", "grade": "A" },
+      { "courseID": "cmps480", "courseName": "Robotics", "grade": "A-" },
+      { "courseID": "cmps490", "courseName": "Natural Language Processing", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps495", "courseName": "Special Topics in AI", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student494",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps210", "courseName": "Programming with Python", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B+" },
+      { "courseID": "cmps300", "courseName": "Introduction to Scientific Computing", "grade": "A-" },
+      { "courseID": "cmps325", "courseName": "Numerical Methods", "grade": "B" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": []
+  },
+  {
+    "username": "student495",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [],
+    "currentCourses": [
+      { "courseID": "cmps101", "courseName": "Introduction to Computing", "grade": "-" },
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "-" },
+      { "courseID": "cmps180", "courseName": "Introduction to Web Technologies", "grade": "-" },
+      { "courseID": "cmps221", "courseName": "Discrete Mathematics", "grade": "-" }
+    ],
+    "registeredCourses": [
+        { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "-" },
+        { "courseID": "cmps210", "courseName": "Programming with Python", "grade": "-" },
+        { "courseID": "cmps303", "courseName": "Data Structures", "grade": "-" }
+    ]
+  },
+  {
+    "username": "student496",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A-" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B+" },
+      { "courseID": "cmps350", "courseName": "Web Development", "grade": "A" },
+      { "courseID": "cmps330", "courseName": "Introduction to Human-Computer Interaction", "grade": "B" },
+      { "courseID": "cmps380", "courseName": "Mobile Application Development", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps460", "courseName": "Cloud Security", "grade": "-" },
+      { "courseID": "cmps475", "courseName": "Network Security", "grade": "-" },
+      { "courseID": "cmps390", "courseName": "Introduction to Cryptography", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student497",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C+" },
+      { "courseID": "cmps360", "courseName": "Software Engineering", "grade": "B-" },
+      { "courseID": "cmps365", "courseName": "Software Project Management", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps498", "courseName": "Senior Project I (CMPS)", "grade": "-" },
+      { "courseID": "cmps491", "courseName": "Senior Project II (CMPS)", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student498",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps420", "courseName": "Artificial Intelligence", "grade": "A" },
+      { "courseID": "cmps485", "courseName": "Machine Learning", "grade": "A" },
+      { "courseID": "cmps490", "courseName": "Natural Language Processing", "grade": "A" },
+      { "courseID": "cmps495", "courseName": "Special Topics in AI", "grade": "A" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": []
+  },
+  {
+    "username": "student499",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C-" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "D" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "C" },
+      { "courseID": "cmps405", "courseName": "Operating Systems", "grade": "B-" }
+    ],
+    "currentCourses": [
+       { "courseID": "cmps401", "courseName": "Distributed Systems", "grade": "-" },
+       { "courseID": "cmps345", "courseName": "Concurrent Programming", "grade": "-" },
+       { "courseID": "cmps370", "courseName": "Computer Networks", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student500",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [],
+    "currentCourses": [
+      { "courseID": "cmps101", "courseName": "Introduction to Computing", "grade": "-" },
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "-" },
+      { "courseID": "cmps180", "courseName": "Introduction to Web Technologies", "grade": "-" },
+      { "courseID": "cmps221", "courseName": "Discrete Mathematics", "grade": "-" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "-" },
+      { "courseID": "cmps210", "courseName": "Programming with Python", "grade": "-" }
+    ],
+    "registeredCourses": [
+        { "courseID": "cmps303", "courseName": "Data Structures", "grade": "-" },
+        { "courseID": "cmps350", "courseName": "Web Development", "grade": "-" }
+    ]
+  },
+  {
+    "username": "student501",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B+" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student502",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [],
+    "currentCourses": [
+      { "courseID": "cmps101", "courseName": "Introduction to Computing", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student503",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "-" },
+      { "courseID": "cmps210", "courseName": "Programming with Python", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student504",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps101", "courseName": "Introduction to Computing", "grade": "A" },
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps221", "courseName": "Discrete Mathematics", "grade": "B+" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps315", "courseName": "Theory of Computation", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student505",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B-" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C+" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps360", "courseName": "Software Engineering", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student506",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A-" },
+      { "courseID": "cmps420", "courseName": "Artificial Intelligence", "grade": "B+" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps485", "courseName": "Machine Learning", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student507",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "D+" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps299", "courseName": "Programming Workshop", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student508",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps101", "courseName": "Introduction to Computing", "grade": "B+" },
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A-" },
+      { "courseID": "cmps180", "courseName": "Introduction to Web Technologies", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps350", "courseName": "Web Development", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student509",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A-" },
+      { "courseID": "cmps210", "courseName": "Programming with Python", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B+" }
+    ],
+    "currentCourses": [
+       { "courseID": "cmps380", "courseName": "Mobile Application Development", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student510",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B+" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps345", "courseName": "Concurrent Programming", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps405", "courseName": "Operating Systems", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+    {
+    "username": "student511",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B+" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A-" },
+      { "courseID": "cmps351", "courseName": "Fundamentals of Database", "grade": "B+" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps430", "courseName": "Data Mining", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student512",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [],
+    "currentCourses": [
+      { "courseID": "cmps101", "courseName": "Introduction to Computing", "grade": "-" },
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student513",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C" },
+      { "courseID": "cmps221", "courseName": "Discrete Mathematics", "grade": "B" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps390", "courseName": "Introduction to Cryptography", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student514",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps201", "courseName": "Introduction to Algorithms", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps305", "courseName": "Design and Analysis of Algorithms", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student515",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C+" },
+      { "courseID": "cmps370", "courseName": "Computer Networks", "grade": "B+" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps475", "courseName": "Network Security", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student516",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" }
+    ],
+    "currentCourses": [
+       { "courseID": "cmps210", "courseName": "Programming with Python", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student517",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps101", "courseName": "Introduction to Computing", "grade": "B-" },
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C+" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps221", "courseName": "Discrete Mathematics", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student518",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A-" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B+" },
+      { "courseID": "cmps351", "courseName": "Fundamentals of Database", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps435", "courseName": "Database Administration", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student519",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A-" },
+      { "courseID": "cmps345", "courseName": "Concurrent Programming", "grade": "B" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps405", "courseName": "Operating Systems", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student520",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "F" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": [
+       { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "-" }
+    ]
+  },
+    {
+    "username": "student521",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A-" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "B+" },
+      { "courseID": "cmps405", "courseName": "Operating Systems", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps401", "courseName": "Distributed Systems", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student522",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C" },
+      { "courseID": "cmps299", "courseName": "Programming Workshop", "grade": "B+" }
+    ],
+    "currentCourses": [
+       { "courseID": "cmps360", "courseName": "Software Engineering", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student523",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A-" },
+      { "courseID": "cmps221", "courseName": "Discrete Mathematics", "grade": "B+" },
+      { "courseID": "cmps325", "courseName": "Numerical Methods", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps415", "courseName": "Formal Verification", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student524",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps180", "courseName": "Introduction to Web Technologies", "grade": "B" },
+      { "courseID": "cmps350", "courseName": "Web Development", "grade": "A" },
+      { "courseID": "cmps380", "courseName": "Mobile Application Development", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps460", "courseName": "Cloud Security", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student525",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C" },
+      { "courseID": "cmps360", "courseName": "Software Engineering", "grade": "B+" },
+      { "courseID": "cmps365", "courseName": "Software Project Management", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps498", "courseName": "Senior Project I (CMPS)", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+   {
+    "username": "student526",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps420", "courseName": "Artificial Intelligence", "grade": "A-" },
+      { "courseID": "cmps485", "courseName": "Machine Learning", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps495", "courseName": "Special Topics in AI", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student527",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C-" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "D" }
+    ],
+    "currentCourses": [
+       { "courseID": "cmps303", "courseName": "Data Structures", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student528",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [],
+    "currentCourses": [
+      { "courseID": "cmps101", "courseName": "Introduction to Computing", "grade": "-" }
+    ],
+    "registeredCourses": [
+       { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "-" }
+    ]
+  },
+  {
+    "username": "student529",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B+" },
+      { "courseID": "cmps351", "courseName": "Fundamentals of Database", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps435", "courseName": "Database Administration", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student530",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps345", "courseName": "Concurrent Programming", "grade": "A-" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": []
+  },
+  {
+    "username": "student531",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "F" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": [
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "-" }
+    ]
+  },
+    {
+    "username": "student532",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A-" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "B+" },
+      { "courseID": "cmps405", "courseName": "Operating Systems", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps401", "courseName": "Distributed Systems", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student533",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C" },
+      { "courseID": "cmps299", "courseName": "Programming Workshop", "grade": "B+" }
+    ],
+    "currentCourses": [
+       { "courseID": "cmps360", "courseName": "Software Engineering", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student534",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A-" },
+      { "courseID": "cmps221", "courseName": "Discrete Mathematics", "grade": "B+" },
+      { "courseID": "cmps325", "courseName": "Numerical Methods", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps415", "courseName": "Formal Verification", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student535",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps180", "courseName": "Introduction to Web Technologies", "grade": "B" },
+      { "courseID": "cmps350", "courseName": "Web Development", "grade": "A" },
+      { "courseID": "cmps380", "courseName": "Mobile Application Development", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps460", "courseName": "Cloud Security", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student536",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C" },
+      { "courseID": "cmps360", "courseName": "Software Engineering", "grade": "B+" },
+      { "courseID": "cmps365", "courseName": "Software Project Management", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps498", "courseName": "Senior Project I (CMPS)", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+   {
+    "username": "student537",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps420", "courseName": "Artificial Intelligence", "grade": "A-" },
+      { "courseID": "cmps485", "courseName": "Machine Learning", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps495", "courseName": "Special Topics in AI", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student538",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C-" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "D" }
+    ],
+    "currentCourses": [
+       { "courseID": "cmps303", "courseName": "Data Structures", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student539",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [],
+    "currentCourses": [
+      { "courseID": "cmps101", "courseName": "Introduction to Computing", "grade": "-" }
+    ],
+    "registeredCourses": [
+       { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "-" }
+    ]
+  },
+  {
+    "username": "student540",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B+" },
+      { "courseID": "cmps351", "courseName": "Fundamentals of Database", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps435", "courseName": "Database Administration", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student541",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps345", "courseName": "Concurrent Programming", "grade": "A-" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": []
+  },
+  {
+    "username": "student542",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "F" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": [
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "-" }
+    ]
+  },
+    {
+    "username": "student543",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A-" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "B+" },
+      { "courseID": "cmps405", "courseName": "Operating Systems", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps401", "courseName": "Distributed Systems", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student544",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C" },
+      { "courseID": "cmps299", "courseName": "Programming Workshop", "grade": "B+" }
+    ],
+    "currentCourses": [
+       { "courseID": "cmps360", "courseName": "Software Engineering", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student545",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A-" },
+      { "courseID": "cmps221", "courseName": "Discrete Mathematics", "grade": "B+" },
+      { "courseID": "cmps325", "courseName": "Numerical Methods", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps415", "courseName": "Formal Verification", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student546",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps180", "courseName": "Introduction to Web Technologies", "grade": "B" },
+      { "courseID": "cmps350", "courseName": "Web Development", "grade": "A" },
+      { "courseID": "cmps380", "courseName": "Mobile Application Development", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps460", "courseName": "Cloud Security", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student547",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C" },
+      { "courseID": "cmps360", "courseName": "Software Engineering", "grade": "B+" },
+      { "courseID": "cmps365", "courseName": "Software Project Management", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps498", "courseName": "Senior Project I (CMPS)", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+   {
+    "username": "student548",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps420", "courseName": "Artificial Intelligence", "grade": "A-" },
+      { "courseID": "cmps485", "courseName": "Machine Learning", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps495", "courseName": "Special Topics in AI", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student549",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C-" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "D" }
+    ],
+    "currentCourses": [
+       { "courseID": "cmps303", "courseName": "Data Structures", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student550",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [],
+    "currentCourses": [
+      { "courseID": "cmps101", "courseName": "Introduction to Computing", "grade": "-" }
+    ],
+    "registeredCourses": [
+       { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "-" }
+    ]
+  },
+  {
+    "username": "student551",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B+" },
+      { "courseID": "cmps351", "courseName": "Fundamentals of Database", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps435", "courseName": "Database Administration", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student552",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps345", "courseName": "Concurrent Programming", "grade": "A-" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": []
+  },
+  {
+    "username": "student553",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "F" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": [
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "-" }
+    ]
+  },
+    {
+    "username": "student554",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A-" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "B+" },
+      { "courseID": "cmps405", "courseName": "Operating Systems", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps401", "courseName": "Distributed Systems", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student555",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C" },
+      { "courseID": "cmps299", "courseName": "Programming Workshop", "grade": "B+" }
+    ],
+    "currentCourses": [
+       { "courseID": "cmps360", "courseName": "Software Engineering", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student556",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A-" },
+      { "courseID": "cmps221", "courseName": "Discrete Mathematics", "grade": "B+" },
+      { "courseID": "cmps325", "courseName": "Numerical Methods", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps415", "courseName": "Formal Verification", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student557",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps180", "courseName": "Introduction to Web Technologies", "grade": "B" },
+      { "courseID": "cmps350", "courseName": "Web Development", "grade": "A" },
+      { "courseID": "cmps380", "courseName": "Mobile Application Development", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps460", "courseName": "Cloud Security", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student558",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C" },
+      { "courseID": "cmps360", "courseName": "Software Engineering", "grade": "B+" },
+      { "courseID": "cmps365", "courseName": "Software Project Management", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps498", "courseName": "Senior Project I (CMPS)", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+   {
+    "username": "student559",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps420", "courseName": "Artificial Intelligence", "grade": "A-" },
+      { "courseID": "cmps485", "courseName": "Machine Learning", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps495", "courseName": "Special Topics in AI", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student560",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C-" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "D" }
+    ],
+    "currentCourses": [
+       { "courseID": "cmps303", "courseName": "Data Structures", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student561",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [],
+    "currentCourses": [
+      { "courseID": "cmps101", "courseName": "Introduction to Computing", "grade": "-" }
+    ],
+    "registeredCourses": [
+       { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "-" }
+    ]
+  },
+  {
+    "username": "student562",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B+" },
+      { "courseID": "cmps351", "courseName": "Fundamentals of Database", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps435", "courseName": "Database Administration", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student563",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps345", "courseName": "Concurrent Programming", "grade": "A-" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": []
+  },
+  {
+    "username": "student564",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "F" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": [
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "-" }
+    ]
+  },
+    {
+    "username": "student565",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A-" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "B+" },
+      { "courseID": "cmps405", "courseName": "Operating Systems", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps401", "courseName": "Distributed Systems", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student566",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C" },
+      { "courseID": "cmps299", "courseName": "Programming Workshop", "grade": "B+" }
+    ],
+    "currentCourses": [
+       { "courseID": "cmps360", "courseName": "Software Engineering", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student567",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A-" },
+      { "courseID": "cmps221", "courseName": "Discrete Mathematics", "grade": "B+" },
+      { "courseID": "cmps325", "courseName": "Numerical Methods", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps415", "courseName": "Formal Verification", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student568",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps180", "courseName": "Introduction to Web Technologies", "grade": "B" },
+      { "courseID": "cmps350", "courseName": "Web Development", "grade": "A" },
+      { "courseID": "cmps380", "courseName": "Mobile Application Development", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps460", "courseName": "Cloud Security", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student569",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C" },
+      { "courseID": "cmps360", "courseName": "Software Engineering", "grade": "B+" },
+      { "courseID": "cmps365", "courseName": "Software Project Management", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps498", "courseName": "Senior Project I (CMPS)", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+   {
+    "username": "student570",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps420", "courseName": "Artificial Intelligence", "grade": "A-" },
+      { "courseID": "cmps485", "courseName": "Machine Learning", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps495", "courseName": "Special Topics in AI", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student571",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C-" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "D" }
+    ],
+    "currentCourses": [
+       { "courseID": "cmps303", "courseName": "Data Structures", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student572",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [],
+    "currentCourses": [
+      { "courseID": "cmps101", "courseName": "Introduction to Computing", "grade": "-" }
+    ],
+    "registeredCourses": [
+       { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "-" }
+    ]
+  },
+  {
+    "username": "student573",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B+" },
+      { "courseID": "cmps351", "courseName": "Fundamentals of Database", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps435", "courseName": "Database Administration", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student574",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps345", "courseName": "Concurrent Programming", "grade": "A-" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": []
+  },
+  {
+    "username": "student575",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "F" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": [
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "-" }
+    ]
+  },
+    {
+    "username": "student576",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A-" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "B+" },
+      { "courseID": "cmps405", "courseName": "Operating Systems", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps401", "courseName": "Distributed Systems", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student577",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C" },
+      { "courseID": "cmps299", "courseName": "Programming Workshop", "grade": "B+" }
+    ],
+    "currentCourses": [
+       { "courseID": "cmps360", "courseName": "Software Engineering", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student578",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A-" },
+      { "courseID": "cmps221", "courseName": "Discrete Mathematics", "grade": "B+" },
+      { "courseID": "cmps325", "courseName": "Numerical Methods", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps415", "courseName": "Formal Verification", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student579",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps180", "courseName": "Introduction to Web Technologies", "grade": "B" },
+      { "courseID": "cmps350", "courseName": "Web Development", "grade": "A" },
+      { "courseID": "cmps380", "courseName": "Mobile Application Development", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps460", "courseName": "Cloud Security", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student580",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "C" },
+      { "courseID": "cmps360", "courseName": "Software Engineering", "grade": "B+" },
+      { "courseID": "cmps365", "courseName": "Software Project Management", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps498", "courseName": "Senior Project I (CMPS)", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+   {
+    "username": "student581",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps420", "courseName": "Artificial Intelligence", "grade": "A-" },
+      { "courseID": "cmps485", "courseName": "Machine Learning", "grade": "A" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps495", "courseName": "Special Topics in AI", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student582",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C-" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "D" }
+    ],
+    "currentCourses": [
+       { "courseID": "cmps303", "courseName": "Data Structures", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student583",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [],
+    "currentCourses": [
+      { "courseID": "cmps101", "courseName": "Introduction to Computing", "grade": "-" }
+    ],
+    "registeredCourses": [
+       { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "-" }
+    ]
+  },
+  {
+    "username": "student584",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "B" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "B+" },
+      { "courseID": "cmps351", "courseName": "Fundamentals of Database", "grade": "A-" }
+    ],
+    "currentCourses": [
+      { "courseID": "cmps435", "courseName": "Database Administration", "grade": "-" }
+    ],
+    "registeredCourses": []
+  },
+  {
+    "username": "student585",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "A" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "A" },
+      { "courseID": "cmps303", "courseName": "Data Structures", "grade": "A" },
+      { "courseID": "cmps345", "courseName": "Concurrent Programming", "grade": "A-" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": []
+  },
+  {
+    "username": "student586",
+    "password": "password",
+    "type": "student",
+    "completedCourses": [
+      { "courseID": "cmps151", "courseName": "Programming Concepts", "grade": "C" },
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "F" }
+    ],
+    "currentCourses": [],
+    "registeredCourses": [
+      { "courseID": "cmps251", "courseName": "Object-Oriented Programming", "grade": "-" }
+    ]
+  },
+  {
+    "id": "1004",
+    "username": "Dr. Emily Carter",
+    "password": "teacher222",
+    "type": "instructor"
+  },
+  {
+    "id": "1005",
+    "username": "Dr. Alan Turing",
+    "password": "teacher333",
+    "type": "instructor"
+  },
+  {
+    "id": "1006",
+    "username": "Prof. Lisa Miller",
+    "password": "teacher444",
+    "type": "instructor"
+  },
+  {
+    "id": "1007",
+    "username": "Dr. James White",
+    "password": "teacher555",
+    "type": "instructor"
+  },
+  {
+    "id": "1008",
+    "username": "Prof. Anya Sharma",
+    "password": "teacher666",
+    "type": "instructor"
+  },
+  {
+    "id": "1009",
+    "username": "Dr. David Kim",
+    "password": "teacher777",
+    "type": "instructor"
+  },
+  {
+    "id": "1010",
+    "username": "Prof. Sofia Garcia",
+    "password": "teacher888",
+    "type": "instructor"
+  },
+  {
+    "id": "1011",
+    "username": "Dr. Michael Chen",
+    "password": "teacher999",
+    "type": "instructor"
+  },
+  {
+    "id": "1012",
+    "username": "Prof. Fatima Khan",
+    "password": "teacher101",
+    "type": "instructor"
+  },
+  {
+    "id": "1013",
+    "username": "Dr. Robert Johnson",
+    "password": "teacher121",
+    "type": "instructor"
+  },
+  {
+    "id": "1014",
+    "username": "Prof. Olivia Davis",
+    "password": "teacher131",
+    "type": "instructor"
+  },
+  {
+    "id": "1015",
+    "username": "Dr. William Brown",
+    "password": "teacher141",
+    "type": "instructor"
+  },
+  {
+    "id": "1016",
+    "username": "Prof. Emma Wilson",
+    "password": "teacher151",
+    "type": "instructor"
+  },
+  {
+    "id": "1017",
+    "username": "Dr. Noah Taylor",
+    "password": "teacher161",
+    "type": "instructor"
+  },
+  {
+    "id": "1018",
+    "username": "Prof. Ava Martinez",
+    "password": "teacher171",
+    "type": "instructor"
+  },
+  {
+    "id": "1019",
+    "username": "Dr. Ethan Anderson",
+    "password": "teacher181",
+    "type": "instructor"
+  },
+  {
+    "id": "1020",
+    "username": "Prof. Isabella Thomas",
+    "password": "teacher191",
+    "type": "instructor"
+  },
+  {
+    "id": "1021",
+    "username": "Dr. Liam Jackson",
+    "password": "teacher202",
+    "type": "instructor"
+  },
+  {
+    "id": "1022",
+    "username": "Prof. Sophia White",
+    "password": "teacher212",
+    "type": "instructor"
+  },
+  {
+    "id": "1023",
+    "username": "Dr. Mason Harris",
+    "password": "teacher232",
+    "type": "instructor"
+  },
+  {
+    "id": "1024",
+    "username": "Prof. Amelia Martin",
+    "password": "teacher242",
+    "type": "instructor"
+  },
+  {
+    "id": "1025",
+    "username": "Dr. Oliver Clark",
+    "password": "teacher252",
+    "type": "instructor"
+  },
+  {
+    "id": "1026",
+    "username": "Prof. Harper Lewis",
+    "password": "teacher262",
+    "type": "instructor"
+  },
+  {
+    "id": "1027",
+    "username": "Dr. Elijah Walker",
+    "password": "teacher272",
+    "type": "instructor"
+  },
+  {
+    "id": "1028",
+    "username": "Prof. Evelyn Hall",
+    "password": "teacher282",
+    "type": "instructor"
+  },
+  {
+    "id": "1029",
+    "username": "Dr. Logan Allen",
+    "password": "teacher292",
+    "type": "instructor"
+  },
+  {
+    "id": "1000",
+    "username": "John Smith",
+    "password": "teacher123",
+    "type": "instructor"
+  },
+  {
+    "id": "1001",
+    "username": "Sarah Jones",
+    "password": "teacher456",
+    "type": "instructor"
+  },
+  {
+    "id": "1002",
+    "username": "Fernando Alonso",
+    "password": "teacher789",
+    "type": "instructor"
+  },
+  {
+    "id": "1003",
+    "username": "Maria Rodriguez",
+    "password": "teacher111",
+    "type": "instructor"
+  },
+  {
+    "username": "admin1",
+    "password": "123",
+    "type": "admin"
+  },
+  {
+    "username": "admin2",
+    "password": "admin321",
+    "type": "admin"
+  },
+  {
+    "username": "admin3",
+    "password": "secureadmin",
+    "type": "admin"
+  },
+  {
+    "username": "admin4",
+    "password": "anotheradmin",
+    "type": "admin"
+  }
+]
