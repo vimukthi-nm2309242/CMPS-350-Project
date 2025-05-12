@@ -142,7 +142,7 @@
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps221",
@@ -214,7 +214,7 @@
       {
         "courseID": "cmps151",
         "courseName": "Programming Concepts",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps251",
@@ -224,7 +224,7 @@
       {
         "courseID": "cmpe263",
         "courseName": "Computer Architecture and Organization",
-        "grade": "D+"
+        "grade": "D"
       }
     ],
     "currentCourses": [
@@ -534,7 +534,7 @@
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "C+"
+        "grade": "F"
       },
       { "courseID": "cmps350", "courseName": "Web Development", "grade": "A-" }
     ],
@@ -566,7 +566,7 @@
       },
       {
         "courseID": "cmps253",
-        "courseName": "Introduction to C++",
+        "courseName": "Introduction to F+",
         "grade": "-"
       }
     ],
@@ -616,7 +616,7 @@
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "C+"
+        "grade": "F"
       },
       { "courseID": "cmps370", "courseName": "Computer Networks", "grade": "B" }
     ],
@@ -683,7 +683,7 @@
       {
         "courseID": "cmps101",
         "courseName": "Introduction to Computing",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps151",
@@ -874,7 +874,7 @@
       {
         "courseID": "cmps151",
         "courseName": "Programming Concepts",
-        "grade": "C-"
+        "grade": "C"
       }
     ],
     "currentCourses": [
@@ -1054,7 +1054,7 @@
       {
         "courseID": "cmps151",
         "courseName": "Programming Concepts",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps251",
@@ -1157,7 +1157,7 @@
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "D+"
+        "grade": "D"
       }
     ],
     "currentCourses": [
@@ -1371,7 +1371,7 @@
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps370",
@@ -1422,7 +1422,7 @@
       {
         "courseID": "cmps151",
         "courseName": "Programming Concepts",
-        "grade": "C+"
+        "grade": "F"
       }
     ],
     "currentCourses": [
@@ -1695,7 +1695,7 @@
       {
         "courseID": "cmps151",
         "courseName": "Programming Concepts",
-        "grade": "C-"
+        "grade": "C"
       },
       {
         "courseID": "cmps251",
@@ -1817,7 +1817,7 @@
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "C+"
+        "grade": "F"
       }
     ],
     "currentCourses": [],
@@ -1949,7 +1949,7 @@
       {
         "courseID": "cmps151",
         "courseName": "Programming Concepts",
-        "grade": "C-"
+        "grade": "C"
       },
       {
         "courseID": "cmps251",
@@ -2076,7 +2076,7 @@
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "D+"
+        "grade": "D"
       }
     ],
     "currentCourses": [],
@@ -2218,7 +2218,7 @@
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps360",
@@ -2285,7 +2285,7 @@
       {
         "courseID": "cmps151",
         "courseName": "Programming Concepts",
-        "grade": "C-"
+        "grade": "C"
       },
       {
         "courseID": "cmps251",
@@ -2415,7 +2415,7 @@
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps299",
@@ -2511,7 +2511,7 @@
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "C+"
+        "grade": "F"
       },
       { "courseID": "cmps350", "courseName": "Web Development", "grade": "B" },
       {
@@ -2574,7 +2574,7 @@
       {
         "courseID": "cmps151",
         "courseName": "Programming Concepts",
-        "grade": "C-"
+        "grade": "C"
       },
       {
         "courseID": "cmps251",
@@ -2724,7 +2724,7 @@
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps299",
@@ -2889,7 +2889,7 @@
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps360",
@@ -2960,7 +2960,7 @@
       {
         "courseID": "cmps151",
         "courseName": "Programming Concepts",
-        "grade": "C-"
+        "grade": "C"
       },
       {
         "courseID": "cmps251",
@@ -3119,7 +3119,7 @@
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps299",
@@ -3304,7 +3304,7 @@
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps360",
@@ -3375,7 +3375,7 @@
       {
         "courseID": "cmps151",
         "courseName": "Programming Concepts",
-        "grade": "C-"
+        "grade": "C"
       },
       {
         "courseID": "cmps251",
@@ -3537,7 +3537,7 @@
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps299",
@@ -3723,7 +3723,7 @@
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps360",
@@ -3794,7 +3794,7 @@
       {
         "courseID": "cmps151",
         "courseName": "Programming Concepts",
-        "grade": "C-"
+        "grade": "C"
       },
       {
         "courseID": "cmps251",
@@ -3968,7 +3968,7 @@
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "C+"
+        "grade": "F"
       }
     ],
     "currentCourses": [
@@ -4020,7 +4020,7 @@
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "D+"
+        "grade": "D"
       }
     ],
     "currentCourses": [
@@ -4234,7 +4234,7 @@
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps370",
@@ -4280,7 +4280,7 @@
       {
         "courseID": "cmps151",
         "courseName": "Programming Concepts",
-        "grade": "C+"
+        "grade": "F"
       }
     ],
     "currentCourses": [
@@ -4554,7 +4554,7 @@
       {
         "courseID": "cmps151",
         "courseName": "Programming Concepts",
-        "grade": "C-"
+        "grade": "C"
       },
       {
         "courseID": "cmps251",
@@ -4847,7 +4847,7 @@
       {
         "courseID": "cmps151",
         "courseName": "Programming Concepts",
-        "grade": "C-"
+        "grade": "C"
       },
       {
         "courseID": "cmps251",
@@ -5140,7 +5140,7 @@
       {
         "courseID": "cmps151",
         "courseName": "Programming Concepts",
-        "grade": "C-"
+        "grade": "C"
       },
       {
         "courseID": "cmps251",
@@ -5433,7 +5433,7 @@
       {
         "courseID": "cmps151",
         "courseName": "Programming Concepts",
-        "grade": "C-"
+        "grade": "C"
       },
       {
         "courseID": "cmps251",
@@ -5726,7 +5726,7 @@
       {
         "courseID": "cmps151",
         "courseName": "Programming Concepts",
-        "grade": "C-"
+        "grade": "C"
       },
       {
         "courseID": "cmps251",
@@ -6019,7 +6019,7 @@
       {
         "courseID": "cmps151",
         "courseName": "Programming Concepts",
-        "grade": "C-"
+        "grade": "C"
       },
       {
         "courseID": "cmps251",
@@ -6381,7 +6381,7 @@
       {
         "courseID": "cmps151",
         "courseName": "Programming Concepts",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps180",
@@ -6396,7 +6396,7 @@
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "D+"
+        "grade": "D"
       }
     ],
     "currentCourses": [
@@ -6496,7 +6496,7 @@
       {
         "courseID": "cmps180",
         "courseName": "Introduction to Web Technologies",
-        "grade": "C+"
+        "grade": "F"
       },
       { "courseID": "cmps350", "courseName": "Web Development", "grade": "B" },
       {
@@ -6555,17 +6555,17 @@
       {
         "courseID": "cmps151",
         "courseName": "Programming Concepts",
-        "grade": "C-"
+        "grade": "C"
       },
       {
         "courseID": "cmps221",
         "courseName": "Discrete Mathematics",
-        "grade": "D+"
+        "grade": "D"
       },
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps299",
@@ -6764,7 +6764,7 @@
       {
         "courseID": "cmps101",
         "courseName": "Introduction to Computing",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps151",
@@ -6776,11 +6776,11 @@
         "courseName": "Introduction to Web Technologies",
         "grade": "C"
       },
-      { "courseID": "cmps350", "courseName": "Web Development", "grade": "D+" },
+      { "courseID": "cmps350", "courseName": "Web Development", "grade": "D" },
       {
         "courseID": "cmps380",
         "courseName": "Mobile Application Development",
-        "grade": "C-"
+        "grade": "C"
       }
     ],
     "currentCourses": [
@@ -6879,7 +6879,7 @@
       {
         "courseID": "cmps151",
         "courseName": "Programming Concepts",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps221",
@@ -6911,12 +6911,12 @@
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "D+"
+        "grade": "D"
       },
       {
         "courseID": "cmps299",
         "courseName": "Programming Workshop",
-        "grade": "C-"
+        "grade": "C"
       },
       {
         "courseID": "cmps360",
@@ -6926,7 +6926,7 @@
       {
         "courseID": "cmps365",
         "courseName": "Software Project Management",
-        "grade": "C+"
+        "grade": "F"
       }
     ],
     "currentCourses": [
@@ -7138,7 +7138,7 @@
       {
         "courseID": "cmps101",
         "courseName": "Introduction to Computing",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps151",
@@ -7150,11 +7150,11 @@
         "courseName": "Introduction to Web Technologies",
         "grade": "C"
       },
-      { "courseID": "cmps350", "courseName": "Web Development", "grade": "D+" },
+      { "courseID": "cmps350", "courseName": "Web Development", "grade": "D" },
       {
         "courseID": "cmps380",
         "courseName": "Mobile Application Development",
-        "grade": "C-"
+        "grade": "C"
       }
     ],
     "currentCourses": [
@@ -7253,7 +7253,7 @@
       {
         "courseID": "cmps151",
         "courseName": "Programming Concepts",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps221",
@@ -7285,12 +7285,12 @@
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "D+"
+        "grade": "D"
       },
       {
         "courseID": "cmps299",
         "courseName": "Programming Workshop",
-        "grade": "C-"
+        "grade": "C"
       },
       {
         "courseID": "cmps360",
@@ -7300,7 +7300,7 @@
       {
         "courseID": "cmps365",
         "courseName": "Software Project Management",
-        "grade": "C+"
+        "grade": "F"
       }
     ],
     "currentCourses": [
@@ -7512,7 +7512,7 @@
       {
         "courseID": "cmps101",
         "courseName": "Introduction to Computing",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps151",
@@ -7524,11 +7524,11 @@
         "courseName": "Introduction to Web Technologies",
         "grade": "C"
       },
-      { "courseID": "cmps350", "courseName": "Web Development", "grade": "D+" },
+      { "courseID": "cmps350", "courseName": "Web Development", "grade": "D" },
       {
         "courseID": "cmps380",
         "courseName": "Mobile Application Development",
-        "grade": "C-"
+        "grade": "C"
       }
     ],
     "currentCourses": [
@@ -7627,7 +7627,7 @@
       {
         "courseID": "cmps151",
         "courseName": "Programming Concepts",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps221",
@@ -7659,12 +7659,12 @@
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "D+"
+        "grade": "D"
       },
       {
         "courseID": "cmps299",
         "courseName": "Programming Workshop",
-        "grade": "C-"
+        "grade": "C"
       },
       {
         "courseID": "cmps360",
@@ -7674,7 +7674,7 @@
       {
         "courseID": "cmps365",
         "courseName": "Software Project Management",
-        "grade": "C+"
+        "grade": "F"
       }
     ],
     "currentCourses": [
@@ -7886,7 +7886,7 @@
       {
         "courseID": "cmps101",
         "courseName": "Introduction to Computing",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps151",
@@ -7898,11 +7898,11 @@
         "courseName": "Introduction to Web Technologies",
         "grade": "C"
       },
-      { "courseID": "cmps350", "courseName": "Web Development", "grade": "D+" },
+      { "courseID": "cmps350", "courseName": "Web Development", "grade": "D" },
       {
         "courseID": "cmps380",
         "courseName": "Mobile Application Development",
-        "grade": "C-"
+        "grade": "C"
       }
     ],
     "currentCourses": [
@@ -8001,7 +8001,7 @@
       {
         "courseID": "cmps151",
         "courseName": "Programming Concepts",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps221",
@@ -8033,12 +8033,12 @@
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "D+"
+        "grade": "D"
       },
       {
         "courseID": "cmps299",
         "courseName": "Programming Workshop",
-        "grade": "C-"
+        "grade": "C"
       },
       {
         "courseID": "cmps360",
@@ -8048,7 +8048,7 @@
       {
         "courseID": "cmps365",
         "courseName": "Software Project Management",
-        "grade": "C+"
+        "grade": "F"
       }
     ],
     "currentCourses": [
@@ -8260,7 +8260,7 @@
       {
         "courseID": "cmps101",
         "courseName": "Introduction to Computing",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps151",
@@ -8272,11 +8272,11 @@
         "courseName": "Introduction to Web Technologies",
         "grade": "C"
       },
-      { "courseID": "cmps350", "courseName": "Web Development", "grade": "D+" },
+      { "courseID": "cmps350", "courseName": "Web Development", "grade": "D" },
       {
         "courseID": "cmps380",
         "courseName": "Mobile Application Development",
-        "grade": "C-"
+        "grade": "C"
       }
     ],
     "currentCourses": [
@@ -8375,7 +8375,7 @@
       {
         "courseID": "cmps151",
         "courseName": "Programming Concepts",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps221",
@@ -8407,12 +8407,12 @@
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "D+"
+        "grade": "D"
       },
       {
         "courseID": "cmps299",
         "courseName": "Programming Workshop",
-        "grade": "C-"
+        "grade": "C"
       },
       {
         "courseID": "cmps360",
@@ -8422,7 +8422,7 @@
       {
         "courseID": "cmps365",
         "courseName": "Software Project Management",
-        "grade": "C+"
+        "grade": "F"
       }
     ],
     "currentCourses": [
@@ -8634,7 +8634,7 @@
       {
         "courseID": "cmps101",
         "courseName": "Introduction to Computing",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps151",
@@ -8646,11 +8646,11 @@
         "courseName": "Introduction to Web Technologies",
         "grade": "C"
       },
-      { "courseID": "cmps350", "courseName": "Web Development", "grade": "D+" },
+      { "courseID": "cmps350", "courseName": "Web Development", "grade": "D" },
       {
         "courseID": "cmps380",
         "courseName": "Mobile Application Development",
-        "grade": "C-"
+        "grade": "C"
       }
     ],
     "currentCourses": [
@@ -8749,7 +8749,7 @@
       {
         "courseID": "cmps151",
         "courseName": "Programming Concepts",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps221",
@@ -8781,12 +8781,12 @@
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "D+"
+        "grade": "D"
       },
       {
         "courseID": "cmps299",
         "courseName": "Programming Workshop",
-        "grade": "C-"
+        "grade": "C"
       },
       {
         "courseID": "cmps360",
@@ -8796,7 +8796,7 @@
       {
         "courseID": "cmps365",
         "courseName": "Software Project Management",
-        "grade": "C+"
+        "grade": "F"
       }
     ],
     "currentCourses": [
@@ -9008,7 +9008,7 @@
       {
         "courseID": "cmps101",
         "courseName": "Introduction to Computing",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps151",
@@ -9020,11 +9020,11 @@
         "courseName": "Introduction to Web Technologies",
         "grade": "C"
       },
-      { "courseID": "cmps350", "courseName": "Web Development", "grade": "D+" },
+      { "courseID": "cmps350", "courseName": "Web Development", "grade": "D" },
       {
         "courseID": "cmps380",
         "courseName": "Mobile Application Development",
-        "grade": "C-"
+        "grade": "C"
       }
     ],
     "currentCourses": [
@@ -9123,7 +9123,7 @@
       {
         "courseID": "cmps151",
         "courseName": "Programming Concepts",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps221",
@@ -9155,12 +9155,12 @@
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "D+"
+        "grade": "D"
       },
       {
         "courseID": "cmps299",
         "courseName": "Programming Workshop",
-        "grade": "C-"
+        "grade": "C"
       },
       {
         "courseID": "cmps360",
@@ -9170,7 +9170,7 @@
       {
         "courseID": "cmps365",
         "courseName": "Software Project Management",
-        "grade": "C+"
+        "grade": "F"
       }
     ],
     "currentCourses": [
@@ -9382,7 +9382,7 @@
       {
         "courseID": "cmps101",
         "courseName": "Introduction to Computing",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps151",
@@ -9394,11 +9394,11 @@
         "courseName": "Introduction to Web Technologies",
         "grade": "C"
       },
-      { "courseID": "cmps350", "courseName": "Web Development", "grade": "D+" },
+      { "courseID": "cmps350", "courseName": "Web Development", "grade": "D" },
       {
         "courseID": "cmps380",
         "courseName": "Mobile Application Development",
-        "grade": "C-"
+        "grade": "C"
       }
     ],
     "currentCourses": [
@@ -9497,7 +9497,7 @@
       {
         "courseID": "cmps151",
         "courseName": "Programming Concepts",
-        "grade": "C+"
+        "grade": "F"
       },
       {
         "courseID": "cmps221",
@@ -9529,12 +9529,12 @@
       {
         "courseID": "cmps251",
         "courseName": "Object-Oriented Programming",
-        "grade": "D+"
+        "grade": "D"
       },
       {
         "courseID": "cmps299",
         "courseName": "Programming Workshop",
-        "grade": "C-"
+        "grade": "C"
       },
       {
         "courseID": "cmps360",
@@ -9544,7 +9544,7 @@
       {
         "courseID": "cmps365",
         "courseName": "Software Project Management",
-        "grade": "C+"
+        "grade": "F"
       }
     ],
     "currentCourses": [
