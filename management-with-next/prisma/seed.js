@@ -40,9 +40,11 @@ async function seed() {
       // Map existing user roles
       if (existingUser.student) {
         studentsMap[userData.username] = existingUser.student.id;
+        //if the student already exists we map that student into the studentsmap of that index/username and then give it its id
       }
       if (existingUser.instructor) {
         instructorsMap[userData.username] = existingUser.instructor.id;
+        //same for instructor
       }
     } else {
       // User doesn't exist, create a new one
@@ -52,10 +54,12 @@ async function seed() {
         type: userData.type,
       };
 
+      //include the id 
       if (userData.id !== undefined && userData.id !== null) {
         userDataForPrisma.id = userData.id;
       }
 
+      //creates the user from the data we have taken before above
       try {
         user = await prisma.user.create({
           data: userDataForPrisma,
@@ -73,6 +77,7 @@ async function seed() {
               },
             });
             studentsMap[user.username] = student.id;
+            //username of the student user is their student id
             break;
 
           case "instructor":
@@ -107,6 +112,7 @@ async function seed() {
 
   for (const courseData of coursesData) {
     // Find instructor ID if available
+    //by checking the name of instructor from the course info
     const instructorId = instructorsMap[courseData.instructor] || null;
 
     try {
@@ -135,6 +141,7 @@ async function seed() {
         });
         console.log(`⁠Updated course: ${course.name} (${course.id})`);
       } else {
+        //create brand new course if it doesnt exist
         course = await prisma.course.create({
           data: {
             id: courseData.id,
@@ -176,7 +183,7 @@ async function seed() {
           const courseId = completedCourse.courseID; // Use the direct courseID from JSON
           if (courseId) {
             try {
-              // Check if this relationship already exists
+              // We check if the student course relationship exists or not
               const existingRelation = await prisma.completedCourse.findFirst({
                 where: {
                   studentId: studentId,
@@ -188,6 +195,7 @@ async function seed() {
                 console.log(
                   `⁠Completed course relation for ${courseId} and student ${userData.username} already exists, updating`
                 );
+                // If it does then we update that info for the student
                 await prisma.completedCourse.update({
                   where: { id: existingRelation.id },
                   data: { grade: completedCourse.grade }
