@@ -3,11 +3,12 @@
 // import React from "react";
 // import { top3CompletedAction, getTop3CurrentCourseAction } from "./actions";
 
-import { top3CompletedAction, getTop3CurrentCourseAction } from "../actions";
+import { top3CompletedAction, getTop3CurrentCourseAction, getStudentsNotCompleteCourse } from "../actions";
 
 export async function Courses() {
   const topCourses = await top3CompletedAction();
   const topCurrent = await getTop3CurrentCourseAction();
+  const noCourses = await getStudentsNotCompleteCourse();
 
   return (
     <>
@@ -37,6 +38,9 @@ export async function Courses() {
             </li>
           ))}
         </ul>
+      </div>
+      <div className="p-6">
+        <span className="font-medium">{noCourses} have not completed any courses</span>
       </div>
     </>
   );
