@@ -18,15 +18,14 @@ export async function Courses() {
 
   return (
     <>
-      <div className="mb-8">
+      <div>
         <h1 className="text-3xl font-extrabold text-gray-800">
           {courseCount._count.id} Courses Available
         </h1>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {/* Top 3 Completed Courses */}
-        <div className="bg-white p-6 rounded-2xl shadow hover:shadow-md transition">
+        <div className="bg-white p-6 shadow hover:shadow-md transition">
           <h2 className="text-xl font-bold mb-4 text-gray-800">
             Top 3 Completed Courses
           </h2>
@@ -44,8 +43,7 @@ export async function Courses() {
           </ul>
         </div>
 
-        {/* Top 3 Current Courses */}
-        <div className="bg-white p-6 rounded-2xl shadow hover:shadow-md transition">
+        <div className="bg-white p-6 shadow hover:shadow-md transition">
           <h2 className="text-xl font-bold mb-4 text-gray-800">
             Top 3 Current Courses
           </h2>
@@ -62,9 +60,7 @@ export async function Courses() {
             ))}
           </ul>
         </div>
-
-        {/* Students with No Completed Courses */}
-        <div className="bg-white p-6 rounded-2xl shadow hover:shadow-md transition flex items-center justify-center text-center">
+        <div className="bg-white p-6 shadow hover:shadow-md transition flex items-center justify-center text-center">
           <span className="text-gray-800 font-medium text-lg">
             {noCourses} students have not completed any courses
           </span>

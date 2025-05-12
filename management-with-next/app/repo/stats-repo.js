@@ -3,22 +3,22 @@ import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient();
 
 export default class statsRepo {
-  //   async getCourseCount() {
-  //     return await prisma.course.aggregate({
-  //       _count: { id: true },
-  //     });
-  //   }  TEST STAT JUST TO CHECK
+  async getCourseCount() {
+    return await prisma.course.aggregate({
+      _count: { id: true },
+    });
+  }
 
-  //   async getStudentCount() {
-  //     return await prisma.student.aggregate({
-  //       _count: { id: true },
-  //     });
-  //   }
-  //   async getInstructorCount() {
-  //     return await prisma.instructor.aggregate({
-  //       _count: { id: true },
-  //     });
-  //   }
+  async getStudentCount() {
+    return await prisma.student.aggregate({
+      _count: { id: true },
+    });
+  }
+  async getInstructorCount() {
+    return await prisma.instructor.aggregate({
+      _count: { id: true },
+    });
+  }
 
   async getTop3CompletedCourses() {
     return await prisma.course.findMany({
@@ -163,22 +163,22 @@ export default class statsRepo {
     };
   }
 
-//   async getStudentsPerCourseCategory() {
-//     return await prisma.course.groupBy({
-//       by: ["category"],
-//       where: {
-//         category: {
-//           not: null, // single set of braces here
-//         },
-//       },
-//       _count: {
-//         registeredCourses: true,
-//       },
-//       orderBy: {
-//         _count: {
-//           registeredCourses: "desc",
-//         },
-//       },
-//     });
-//   }
+  //   async getStudentsPerCourseCategory() {
+  //     return await prisma.course.groupBy({
+  //       by: ["category"],
+  //       where: {
+  //         category: {
+  //           not: null, // single set of braces here
+  //         },
+  //       },
+  //       _count: {
+  //         registeredCourses: true,
+  //       },
+  //       orderBy: {
+  //         _count: {
+  //           registeredCourses: "desc",
+  //         },
+  //       },
+  //     });
+  //   }
 }

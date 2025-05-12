@@ -98,13 +98,6 @@ export async function getStudentsNotCompleteCourse() {
         none: {},
       },
     },
-    //   select : {
-    //     user: {
-    //         select: {
-    //             username: true
-    //         }
-    //     }
-    //   }
   });
 
   return students.length;
@@ -145,7 +138,7 @@ export async function getTotalCoursesTaught() {
 
   return {
     totalCoursesTaught: total,
-    breakdown: result.map((instructor) => ({
+    overall: result.map((instructor) => ({
       username: instructor.user.username,
       coursesTaught: instructor._count.courses,
     })),
@@ -154,6 +147,18 @@ export async function getTotalCoursesTaught() {
 
 export async function getCourseCountAction() {
   return await prisma.course.aggregate({
+    _count: { id: true },
+  });
+}
+
+export async function getInstructorCount() {
+  return await prisma.instructor.aggregate({
+    _count: { id: true },
+  });
+}
+
+export async function getStudentCount() {
+  return await prisma.student.aggregate({
     _count: { id: true },
   });
 }

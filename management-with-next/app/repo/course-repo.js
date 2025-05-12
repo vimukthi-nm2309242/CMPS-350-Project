@@ -1,5 +1,4 @@
 import { PrismaClient } from "@prisma/client";
-import { errorToJSON } from "next/dist/server/render";
 
 const prisma = new PrismaClient();
 
