@@ -19,7 +19,6 @@ export async function top3CompletedAction() {
     },
   });
 
-  // Transform the result to explicitly show the count
   return topCourses.map((course) => ({
     ...course,
     completedCoursesCount: course._count.completedCourses,
@@ -151,4 +150,10 @@ export async function getTotalCoursesTaught() {
       coursesTaught: instructor._count.courses,
     })),
   };
+}
+
+export async function getCourseCountAction() {
+  return await prisma.course.aggregate({
+    _count: { id: true },
+  });
 }
