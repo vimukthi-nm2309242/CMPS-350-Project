@@ -12,6 +12,23 @@
    - Completed course, current course and pending course (which works on user so far) are seperate tables which link to the overall course table.
    - Use of composite primary keys in those tables allow us to properly make the relation between the courses and the students.
    - Used an enum system with 3 user types which we can use to easily classify the user types.
+   -Furthermore, db has been populated sucessfully using the seed.js
+
+2. Creation of the repos
+   - Created a user repo to retrieve all user information
+   - Created course, student, instructor and admin repo using the basic CRUD operations using prisma
+
+3. Creation of all routes
+   - Since the specific repos have been created, the corresponding routes have also been created.
+   - For example there is a route.js for the user which retreives the list of users from the user repo using the GET method
+   - Same have been implemented for the other entities, moreover for the student and course there is a PATCH method which allows us to perform updates for student or course of that particular ID.
+
+4. Additionally, there is a repo which is used to generate the statistics.
+   - this repo is basically getting used in the actions.js to carry out server operations when implementing the statistics webpage which is created using next.js
+
+5. Creation of components
+   - there are three components out of which only one has been successfully completed which is the courses.jsx
+   - this component displays statistics based off of course information hence is classified under the course component and tailwind css has been used to make the webpage slightly appealing rather than using the default css styling.
 
 ## Report for Phase 1 of Web Development Project
 -----------------------------------------------
