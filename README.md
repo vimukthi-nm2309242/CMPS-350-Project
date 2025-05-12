@@ -1,4 +1,18 @@
-# Report for Phase 1 of Web Development Porject
+# Report for Web Development Porject
+-----------------------------------------------
+
+## Report for Phase 2 of Web Development Porject
+-----------------------------------------------
+
+1. Creation of prisma schema and seed
+   - Created all the necessary tables required to store each entity.
+   - Overall everyone gets inserted into the user table, because in the end everyone is a user and then it is later seeded into desired table by type.
+   - Furthermore, each user is seeded into its required table while also doing the same for courses, overall courses has a table however to differentiate the completeed courses a seperate table has been created.
+   - Completed course, current course and pending course (which works on user so far) are seperate tables which link to the overall course table.
+   - Use of composite primary keys in those tables allow us to properly make the relation between the courses and the students.
+   - Used an enum system with 3 user types which we can use to easily classify the user types.
+
+## Report for Phase 1 of Web Development Porject
 -----------------------------------------------
 
 1. Use case 1
