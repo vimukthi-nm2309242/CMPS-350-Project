@@ -4,13 +4,24 @@ const prisma = new PrismaClient();
 
 export default class studentRepo {
   async getAllStudents() {
-    return await prisma.student.findMany();
+    return await prisma.student.findMany({
+      include: {
+        completedCourses: true,
+        currentCourses: true,
+        registeredCourses: true,
+      },
+    });
   }
   async getStudentByID(studId) {
     try {
       return await prisma.student.findUnique({
         where: {
           id: studId,
+        },
+        include: {
+          completedCourses: true,
+          currentCourses: true,
+          registeredCourses: true,
         },
       });
     } catch (e) {
