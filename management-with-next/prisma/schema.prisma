@@ -35,9 +35,11 @@ model Student {
   id                String             @id @default(cuid())
   user              User               @relation(fields: [userId], references: [id], onDelete: Cascade)
   userId            String             @unique
+
   completedCourses  CompletedCourse[]
   currentCourses    CurrentCourse[]
   registeredCourses RegisteredCourse[]
+  //fields which make relations
 }
 
 // Instructor model
@@ -71,17 +73,17 @@ model Course {
   prerequisites       Json? //used json because its much easier to map the courses
   //extra fields needed based on the course.json format that i have made before
 
-  //relations to link
   completedCourses  CompletedCourse[]
   currentCourses    CurrentCourse[]
   registeredCourses RegisteredCourse[]
+  //fields which make relations
 }
 
 // CompletedCourse model
 model CompletedCourse {
   id        String  @id @default(cuid())
-  student   Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
   studentId String
+  student   Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
   course    Course  @relation(fields: [courseId], references: [id], onDelete: Cascade)
   courseId  String
   grade     String
@@ -92,8 +94,8 @@ model CompletedCourse {
 // CurrentCourse model
 model CurrentCourse {
   id        String  @id @default(cuid())
-  student   Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
   studentId String
+  student   Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
   course    Course  @relation(fields: [courseId], references: [id], onDelete: Cascade)
   courseId  String
   grade     String? // Optional because it could be in progress
@@ -104,8 +106,8 @@ model CurrentCourse {
 // RegisteredCourse model
 model RegisteredCourse {
   id        String  @id @default(cuid())
-  student   Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
   studentId String
+  student   Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
   course    Course  @relation(fields: [courseId], references: [id], onDelete: Cascade)
   courseId  String
 
