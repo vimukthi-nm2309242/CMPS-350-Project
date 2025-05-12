@@ -1,7 +1,8 @@
-# Report for Web Development Porject
+# Report for Web Development Project
 -----------------------------------------------
 
-## Report for Phase 2 of Web Development Porject
+
+## Report for Phase 2 of Web Development Project
 -----------------------------------------------
 
 1. Creation of prisma schema and seed
@@ -12,7 +13,7 @@
    - Use of composite primary keys in those tables allow us to properly make the relation between the courses and the students.
    - Used an enum system with 3 user types which we can use to easily classify the user types.
 
-## Report for Phase 1 of Web Development Porject
+## Report for Phase 1 of Web Development Project
 -----------------------------------------------
 
 1. Use case 1
@@ -45,3 +46,8 @@
    - Added all the required features
    - Displays all the courses that with a filtering system
    - Was not able to implement the persistence system 
+
+6. Use case 6
+   - Created the instructor webpage with javascript
+   - This will be used exactly like the admin layout
+   - There will be additional page to show the stats same for admin page
