@@ -1,12 +1,12 @@
-import studentRepo from "@/app/repo/student-repo";
+import courseRepo from "@/app/repo/course-repo";
 
-const studentrepo = new studentRepo();
+const courserepo = new courseRepo();
 
 export async function DELETE(req, params) {
-  const { student } = params;
+  const { course } = params;
 
   try {
-    const result = await studentrepo.deleteStudent(student);
+    const result = await courserepo.deleteCourse(course);
 
     if (!result.error) {
       return Response.json(result, {
@@ -24,11 +24,11 @@ export async function DELETE(req, params) {
 }
 
 export async function PATCH(req, params) {
-  const { student } = params;
-  const studentData = req.json();
+  const { course } = params;
+  const courseData = req.json();
 
   try {
-    const result = await studentrepo.updateStudent(studentData, student);
+    const result = await courserepo.updateCourse(courseData, course);
     if (!result.error) {
       return Response.json(result, { message: "Card updated successfully" });
     }
