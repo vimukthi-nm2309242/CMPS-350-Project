@@ -38,14 +38,14 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     async function loadCourses() {
         // const response = await fetch("./jsons/courses.json");
-        const response = await fetch("./cmpsphase1/app/data/courses.json");
+        const response = await fetch("./management-with-next/app/data/courses.json");
         if (response.ok) {
             allCourses = await response.json();
         }
     }
 
     async function loadUsers() {
-        const response = await fetch("./cmpsphase1/app/data/users.json");
+        const response = await fetch("./management-with-next/app/data/users.json");
         if (response.ok) {
             allUsers = await response.json();
         }

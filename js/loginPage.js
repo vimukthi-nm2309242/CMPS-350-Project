@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function(){
     }
     if (hasError) return;
 
-    const response = await fetch("./jsons/users.json");
+    const response = await fetch("./management-with-next/app/data/users.json");
     const users = await response.json();
 
     const detail = users.find(u => 

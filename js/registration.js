@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     // Fetch user data from users.json
     async function retrieveUser() {
-        const response = await fetch("./cmpsphase1/app/data/users.json");
+        const response = await fetch("./management-with-next/app/data/users.json");
         if (response.ok) {
             const users = await response.json();
             return users.find(user => user.username === currentUser.username);
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     // Fetch and display courses
     async function courses() {
-        const response = await fetch("./cmpsphase1/app/data/courses.json");
+        const response = await fetch("./management-with-next/app/data/courses.json");
         if (response.ok) {
             allCourses = await response.json();
             displayCourses(allCourses);     //passes all the courses objects to the display courses function

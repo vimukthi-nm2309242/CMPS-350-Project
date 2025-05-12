@@ -3,92 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grades Submission</title>
+    <title>Instructor Dashboard</title>
     <link
-    href="https://fonts.googleapis.com/css2?family=Scada:wght@400;700&display=swap" rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/instructor.css">
-    <script src="./js/instructor.js"></script>
+    href="https://fonts.googleapis.com/css2?family=Scada:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+    <link rel="stylesheet" href="./css/admin.css">
+    <script src="./js/instructor.js" type="module"></script>
 </head>
 <body>
-    <header>
-        <h1>Grades Submission</h1>
-        <nav>
-            <a href="#">Dashboard</a> |
-            <a href="#">Courses</a> |
-            <a href="#">Logout</a>
-        </nav>
-    </header>
-
-    <main>
-        <section>
-            <h2>My Courses</h2>
-            <select id="courseSelect">
-                <option value="">-- Select Course --</option>
-                <option value="cmps351">CMPS 351 - Database Fundamentals</option>
-                <option value="cmps303">CMPS 303 - Data Structures</option>
-                <option value="cmps251">CMPS 251 - OOP</option>
-            </select>
-        </section>
-
-        <section id="gradeSubmissionSection">
-            <h2>Submit Grades</h2>
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Student ID</th>
-                        <th>Student Name</th>
-                        <th>Grade</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>student1</td>
-                        <td>John Doe</td>
-                        <td>
-                            <select>
-                                <option value="">Select Grade</option>
-                                <option value="A">A</option>
-                                <option value="B">B</option>
-                                <option value="C">C</option>
-                                <option value="D">D</option>
-                                <option value="F">F</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>student2</td>
-                        <td>Jane Smith</td>
-                        <td>
-                            <select>
-                                <option value="">Select Grade</option>
-                                <option value="A">A</option>
-                                <option value="B">B</option>
-                                <option value="C">C</option>
-                                <option value="D">D</option>
-                                <option value="F">F</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>student3</td>
-                        <td>Mike Johnson</td>
-                        <td>
-                            <select>
-                                <option value="">Select Grade</option>
-                                <option value="A">A</option>
-                                <option value="B">B</option>
-                                <option value="C">C</option>
-                                <option value="D">D</option>
-                                <option value="F">F</option>
-                            </select>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <button type="button">Submit Grades</button>
-        </section>
-    </main>
-
+    <div class="admin-container">
+        <header>
+            <h1>Instructor Dashboard</h1>
+            <div class="instructor-info">
+                <span id="instructorName"></span>
+                <button id="signOut">Sign Out</button>
+            </div>
+        </header>
+        
+        <div class="admin-content">
+            <div class="admin-sidebar">
+                <button id="viewAllMyCourses">All My Courses</button>
+                <button id="viewOpenCourses">My Open Courses</button>
+                <button id="viewInProgressCourses">In Progress Courses</button>
+            </div>
+            
+            <div class="course-display">
+                <div class="course-filters">
+                    <select id="statusFilter">
+                        <option value="all">All Statuses</option>
+                        <option value="open">Open</option>
+                        <option value="in-progress">In Progress</option>
+                        <option value="closed">Closed</option>
+                    </select>
+                    <select id="categoryFilter">
+                        <option value="all">All Categories</option>
+                        <!-- Will be added through JS -->
+                    </select>
+                </div>
+                
+                <div id="coursesContainer" class="courses-container">
+                   <!-- Will be added through JS -->
+                </div>
+            </div>
+        </div>
+        
+        <!-- Viewing course details modal -->
+        <div id="courseModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="modalTitle">Course Details</h2>
+                <div id="courseDetails">
+                    <!-- Will be filled with course details -->
+                </div>
+                <div id="studentsList">
+                    <h3>Registered Students</h3>
+                    <ul id="registeredStudentsList">
+                        <!-- Will be filled with students -->
+                    </ul>
+                </div>
+                <div class="form-group" id="modalActions">
+                    <button id="closeModalBtn">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>

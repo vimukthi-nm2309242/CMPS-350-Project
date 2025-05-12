@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     }
 
     async function retrieveUser(){
-        const response = await fetch("./jsons/users.json");
+        const response = await fetch("./management-with-next/app/data/users.json");
         if(response.ok){
             const users = await response.json();
 
