@@ -76,7 +76,7 @@ model Course {
   prerequisites       Json? //used json because its much easier to map the courses
   //extra fields needed based on the course.json format that i have made before
 
-  completedCourses  CompletedCourse[]
+  completedCourses  CompletedCourse[] 
   currentCourses    CurrentCourse[]
   registeredCourses RegisteredCourse[]
   //fields which make relations

@@ -48,6 +48,7 @@ async function seed() {
       }
     } else {
       // User doesn't exist, create a new one
+      //Store in the user relation
       const userDataForPrisma = {
         username: userData.username,
         password: userData.password,
@@ -56,7 +57,7 @@ async function seed() {
 
       //include the id 
       if (userData.id !== undefined && userData.id !== null) {
-        userDataForPrisma.id = userData.id;
+        userDataForPrisma.id = userData.id;   //useData from the loop
       }
 
       //creates the user from the data we have taken before above
