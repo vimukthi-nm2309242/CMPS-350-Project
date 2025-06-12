@@ -40,6 +40,7 @@ async function seed() {
       // Map existing user roles
       if (existingUser.student) {
         studentsMap[userData.username] = existingUser.student.id;
+<<<<<<< Updated upstream
         //if the student already exists we map that student into the studentsmap of that index/username and then give it its id
       }
       if (existingUser.instructor) {
@@ -49,18 +50,33 @@ async function seed() {
     } else {
       // User doesn't exist, create a new one
       //Store in the user relation
+=======
+      }
+      if (existingUser.instructor) {
+        instructorsMap[userData.username] = existingUser.instructor.id;
+      }
+    } else {
+      // User doesn't exist, create a new one
+>>>>>>> Stashed changes
       const userDataForPrisma = {
         username: userData.username,
         password: userData.password,
         type: userData.type,
       };
 
+<<<<<<< Updated upstream
       //include the id 
       if (userData.id !== undefined && userData.id !== null) {
         userDataForPrisma.id = userData.id;   //useData from the loop
       }
 
       //creates the user from the data we have taken before above
+=======
+      if (userData.id !== undefined && userData.id !== null) {
+        userDataForPrisma.id = userData.id;
+      }
+
+>>>>>>> Stashed changes
       try {
         user = await prisma.user.create({
           data: userDataForPrisma,
@@ -78,7 +94,10 @@ async function seed() {
               },
             });
             studentsMap[user.username] = student.id;
+<<<<<<< Updated upstream
             //username of the student user is their student id
+=======
+>>>>>>> Stashed changes
             break;
 
           case "instructor":
@@ -101,7 +120,11 @@ async function seed() {
             break;
         }
       } catch (e) {
+<<<<<<< Updated upstream
         console.log(`⁠Error creating user ${userData.username}:`, e);
+=======
+        console.log(`Error creating user ${userData.username}:`, e);
+>>>>>>> Stashed changes
         // Skip this user and continue with the next one
         continue;
       }
@@ -113,7 +136,10 @@ async function seed() {
 
   for (const courseData of coursesData) {
     // Find instructor ID if available
+<<<<<<< Updated upstream
     //by checking the name of instructor from the course info
+=======
+>>>>>>> Stashed changes
     const instructorId = instructorsMap[courseData.instructor] || null;
 
     try {
@@ -140,9 +166,14 @@ async function seed() {
             prerequisites: courseData.prerequisites || [],
           },
         });
+<<<<<<< Updated upstream
         console.log(`⁠Updated course: ${course.name} (${course.id})`);
       } else {
         //create brand new course if it doesnt exist
+=======
+        console.log(`Updated course: ${course.name} (${course.id})`);
+      } else {
+>>>>>>> Stashed changes
         course = await prisma.course.create({
           data: {
             id: courseData.id,
@@ -158,7 +189,11 @@ async function seed() {
             prerequisites: courseData.prerequisites || [],
           },
         });
+<<<<<<< Updated upstream
         console.log(`⁠Created course: ${course.name} (${course.id})`);
+=======
+        console.log(`Created course: ${course.name} (${course.id})`);
+>>>>>>> Stashed changes
       }
 
       coursesMap[course.id] = course.id;
@@ -174,7 +209,12 @@ async function seed() {
 
       if (!studentId) {
         console.log(
+<<<<<<< Updated upstream
         `⁠Student ${userData.username} not found, skipping course assignments`);
+=======
+          `Student ${userData.username} not found, skipping course assignments`
+        );
+>>>>>>> Stashed changes
         continue;
       }
 
@@ -184,7 +224,11 @@ async function seed() {
           const courseId = completedCourse.courseID; // Use the direct courseID from JSON
           if (courseId) {
             try {
+<<<<<<< Updated upstream
               // We check if the student course relationship exists or not
+=======
+              // Check if this relationship already exists
+>>>>>>> Stashed changes
               const existingRelation = await prisma.completedCourse.findFirst({
                 where: {
                   studentId: studentId,
@@ -194,9 +238,14 @@ async function seed() {
               
               if (existingRelation) {
                 console.log(
+<<<<<<< Updated upstream
                   `⁠Completed course relation for ${courseId} and student ${userData.username} already exists, updating`
                 );
                 // If it does then we update that info for the student
+=======
+                  `Completed course relation for ${courseId} and student ${userData.username} already exists, updating`
+                );
+>>>>>>> Stashed changes
                 await prisma.completedCourse.update({
                   where: { id: existingRelation.id },
                   data: { grade: completedCourse.grade }
@@ -210,17 +259,30 @@ async function seed() {
                   },
                 });
                 console.log(
+<<<<<<< Updated upstream
                  `Added completed course ${courseId} for ${userData.username}`);
               }
             } catch (e) {
               console.error(
                 `⁠Error managing completed course ${courseId} for ${userData.username}:`,
+=======
+                  `Added completed course ${courseId} for ${userData.username}`
+                );
+              }
+            } catch (e) {
+              console.error(
+                `Error managing completed course ${courseId} for ${userData.username}:`,
+>>>>>>> Stashed changes
                 e
               );
             }
           } else {
             console.log(
+<<<<<<< Updated upstream
              `Course ${completedCourse.courseID} not found, skipping`
+=======
+              `Course ${completedCourse.courseID} not found, skipping`
+>>>>>>> Stashed changes
             );
           }
         }
@@ -242,7 +304,11 @@ async function seed() {
               
               if (existingRelation) {
                 console.log(
+<<<<<<< Updated upstream
                  `Current course relation for ${courseId} and student ${userData.username} already exists, updating⁠`
+=======
+                  `Current course relation for ${courseId} and student ${userData.username} already exists, updating`
+>>>>>>> Stashed changes
                 );
                 await prisma.currentCourse.update({
                   where: { id: existingRelation.id },
@@ -257,7 +323,11 @@ async function seed() {
                   },
                 });
                 console.log(
+<<<<<<< Updated upstream
                 `Added current course ${courseId} for ${userData.username}`
+=======
+                  `Added current course ${courseId} for ${userData.username}`
+>>>>>>> Stashed changes
                 );
               }
             } catch (e) {
@@ -309,7 +379,11 @@ async function seed() {
             }
           } else {
             console.log(
+<<<<<<< Updated upstream
               `⁠Course ${registeredCourse.courseID} not found, skipping`
+=======
+              `Course ${registeredCourse.courseID} not found, skipping`
+>>>>>>> Stashed changes
             );
           }
         }
